@@ -1,0 +1,1717 @@
+src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst_fqdn,port,proto,dst_process,dst_service,dst_username,policy_decision
+9.9.9.9,,,,,10.0.0.5,ord-lb01-dev,,443,6,httpd,,root,potentially_blocked
+9.9.9.9,,,,,10.0.1.19,ord-lb02-prd,,443,6,httpd,,root,potentially_blocked
+85.151.14.15,,,,,10.0.0.3,ord-lb02-dev,,443,6,httpd,,root,potentially_blocked
+85.151.14.15,,,,,10.0.0.5,ord-lb01-dev,,443,6,httpd,,root,potentially_blocked
+85.151.14.15,,,,,10.0.1.28,ord-lb01-prd,,443,6,httpd,,root,potentially_blocked
+85.151.14.15,,,,,10.0.1.19,ord-lb02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.5,,,,,10.0.1.6,prc-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.6,,,,,10.0.1.30,prc-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.7,,,,,10.0.1.21,prc-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.8,,,,,10.0.1.25,ast-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.9,,,,,10.0.1.36,ast-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.10,,,,,10.0.1.8,ast-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.11,,,,,10.0.1.131,swf-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.12,,,,,10.0.1.136,exc-et02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.13,,,,,10.0.1.139,exc-et01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.14,,,,,10.0.1.141,swf-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.15,,,,,10.0.0.3,ord-lb02-dev,,443,6,httpd,,root,potentially_blocked
+45.54.45.16,,,,,10.0.0.5,ord-lb01-dev,,443,6,httpd,,root,potentially_blocked
+45.54.45.17,,,,,10.0.1.23,hrm-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.18,,,,,10.0.1.28,ord-lb01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.19,,,,,10.0.1.19,ord-lb02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.20,,,,,10.0.1.14,hrm-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.21,,,,,10.0.2.6,pos-web04-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.22,,,,,10.0.1.16,hrm-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.23,,,,,10.0.2.7,pos-web05-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.24,,,,,10.0.0.69,pos-web02-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.25,,,,,10.0.0.70,pos-web03-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.26,,,,,10.0.1.204,pay-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.27,,,,,10.0.1.198,pay-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.28,,,,,10.0.1.197,ord-web07-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.29,,,,,10.0.1.201,ord-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.30,,,,,10.0.1.75,ord-web06-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.31,,,,,10.0.1.83,ord-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.32,,,,,10.0.0.137,cat-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.33,,,,,10.0.0.140,shc-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.34,,,,,10.0.1.70,pay-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.35,,,,,10.0.1.72,pay-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.36,,,,,10.0.1.86,pay-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.37,,,,,10.0.1.73,swf-web08-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.38,,,,,10.0.1.67,swf-web07-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.39,,,,,10.0.1.76,swf-web06-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.40,,,,,10.0.1.78,swf-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.41,,,,,10.0.1.66,swf-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.42,,,,,10.0.0.203,ecm-web06-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.43,,,,,10.0.0.194,ecm-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.44,,,,,10.0.0.199,ecm-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.45,,,,,10.0.0.196,ecm-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.46,,,,,10.0.0.197,ecm-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.47,,,,,10.0.0.195,ecm-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.48,,,,,10.0.2.135,pos-web03-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.49,,,,,10.0.2.130,pos-web02-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.50,,,,,10.0.2.71,pos-web06-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.51,,,,,10.0.2.70,pos-web01-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.52,,,,,10.0.0.79,pos-web01-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.53,,,,,10.0.0.73,pos-web04-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.135,swf-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.6,prc-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.30,prc-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.21,prc-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.25,ast-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.36,ast-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.8,ast-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.131,swf-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.136,exc-et02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.139,exc-et01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.141,swf-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.3,ord-lb02-dev,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.5,ord-lb01-dev,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.23,hrm-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.28,ord-lb01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.19,ord-lb02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.14,hrm-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.2.6,pos-web04-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.16,hrm-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.2.7,pos-web05-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.69,pos-web02-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.70,pos-web03-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.204,pay-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.198,pay-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.197,ord-web07-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.201,ord-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.75,ord-web06-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.83,ord-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.137,cat-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.140,shc-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.70,pay-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.72,pay-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.86,pay-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.73,swf-web08-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.67,swf-web07-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.76,swf-web06-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.78,swf-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.66,swf-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.203,ecm-web06-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.194,ecm-web05-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.199,ecm-web04-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.196,ecm-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.197,ecm-web02-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.195,ecm-web01-prd,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.2.135,pos-web03-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.2.130,pos-web02-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.2.71,pos-web06-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.2.70,pos-web01-stg,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.79,pos-web01-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.0.73,pos-web04-pci,,443,6,httpd,,root,potentially_blocked
+45.54.45.54,,,,,10.0.1.135,swf-web03-prd,,443,6,httpd,,root,potentially_blocked
+45.102.100.49,,,,,10.0.0.69,pos-web02-pci,,443,6,httpd,,root,potentially_blocked
+45.102.100.37,,,,,10.0.0.69,pos-web02-pci,,443,6,httpd,,root,potentially_blocked
+45.102.100.25,,,,,10.0.0.70,pos-web03-pci,,443,6,httpd,,root,potentially_blocked
+45.102.100.17,,,,,10.0.0.70,pos-web03-pci,,443,6,httpd,,root,potentially_blocked
+45.102.100.107,,,,,10.0.0.69,pos-web02-pci,,443,6,httpd,,root,potentially_blocked
+35.111.120.25,,,,,10.0.0.136,cat-web01-prd,,443,6,httpd,,root,potentially_blocked
+135.29.19.19,,,,,10.0.0.140,shc-web02-prd,,443,6,httpd,,root,potentially_blocked
+135.111.120.12,,,,,10.0.0.136,cat-web01-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.26,prc-db02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.26,prc-db02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.26,prc-db02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.17,prc-db01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.17,prc-db01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.17,prc-db01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.12,prc-proc02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.12,prc-proc02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.12,prc-proc02-prd,,,,10.0.1.26,prc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.12,prc-proc02-prd,java,,tomcat,10.0.1.26,prc-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.12,prc-proc02-prd,java,,tomcat,10.0.1.17,prc-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.12,prc-proc02-prd,,,,10.0.1.17,prc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.12,prc-proc02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.4,prc-proc01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.4,prc-proc01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.4,prc-proc01-prd,,,,10.0.1.26,prc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.4,prc-proc01-prd,java,,tomcat,10.0.1.26,prc-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.4,prc-proc01-prd,java,,tomcat,10.0.1.17,prc-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.4,prc-proc01-prd,,,,10.0.1.17,prc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.4,prc-proc01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.6,prc-web03-prd,httpd,,root,10.0.1.12,prc-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.6,prc-web03-prd,,,,10.0.1.12,prc-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.6,prc-web03-prd,,,,10.0.1.4,prc-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.6,prc-web03-prd,httpd,,root,10.0.1.4,prc-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.6,prc-web03-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.6,prc-web03-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.6,prc-web03-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.6,prc-web03-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.30,prc-web02-prd,,,,10.0.1.12,prc-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.30,prc-web02-prd,httpd,,root,10.0.1.12,prc-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.30,prc-web02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.30,prc-web02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.30,prc-web02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.30,prc-web02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.21,prc-web01-prd,httpd,,root,10.0.1.12,prc-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.21,prc-web01-prd,,,,10.0.1.12,prc-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.21,prc-web01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.21,prc-web01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.21,prc-web01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.21,prc-web01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.25,ast-web03-prd,httpd,,root,10.0.1.35,ast-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.25,ast-web03-prd,httpd,,root,10.0.1.24,ast-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.25,ast-web03-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.25,ast-web03-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.25,ast-web03-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.25,ast-web03-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.36,ast-web01-prd,httpd,,root,10.0.1.35,ast-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.36,ast-web01-prd,httpd,,root,10.0.1.24,ast-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.36,ast-web01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.36,ast-web01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.36,ast-web01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.36,ast-web01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.8,ast-web02-prd,httpd,,root,10.0.1.35,ast-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.8,ast-web02-prd,httpd,,root,10.0.1.24,ast-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.8,ast-web02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.8,ast-web02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.8,ast-web02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.8,ast-web02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.35,ast-proc02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.35,ast-proc02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.35,ast-proc02-prd,,,,10.0.1.10,ast-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.35,ast-proc02-prd,java,,tomcat,10.0.1.10,ast-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.35,ast-proc02-prd,java,,tomcat,10.0.1.20,ast-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.35,ast-proc02-prd,,,,10.0.1.20,ast-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.35,ast-proc02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.35,ast-proc02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.24,ast-proc01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.24,ast-proc01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.24,ast-proc01-prd,java,,tomcat,10.0.1.10,ast-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.24,ast-proc01-prd,,,,10.0.1.10,ast-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.24,ast-proc01-prd,java,,tomcat,10.0.1.20,ast-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.24,ast-proc01-prd,,,,10.0.1.20,ast-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.24,ast-proc01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.24,ast-proc01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.10,ast-db02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.10,ast-db02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.10,ast-db02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.10,ast-db02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.20,ast-db01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.20,ast-db01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.20,ast-db01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.20,ast-db01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.131,swf-web02-prd,,,,10.0.1.142,swf-gw02-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.131,swf-web02-prd,httpd,,root,10.0.1.142,swf-gw02-prd,,443,6,,,,potentially_blocked
+10.0.1.131,swf-web02-prd,,,,10.0.1.138,swf-gw01-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.131,swf-web02-prd,httpd,,root,10.0.1.138,swf-gw01-prd,,443,6,,,,potentially_blocked
+10.0.1.136,exc-et02-prd,,,,10.0.1.140,exc-mail02-prd,,50636,6,,,root,potentially_blocked
+10.0.1.136,exc-et02-prd,,,root,10.0.1.140,exc-mail02-prd,,50636,6,,,,potentially_blocked
+10.0.1.136,exc-et02-prd,,,root,10.0.1.134,exc-mail01-prd,,50636,6,,,,potentially_blocked
+10.0.1.136,exc-et02-prd,,,,10.0.1.134,exc-mail01-prd,,50636,6,,,root,potentially_blocked
+10.0.1.139,exc-et01-prd,,,,10.0.1.140,exc-mail02-prd,,50636,6,,,root,potentially_blocked
+10.0.1.139,exc-et01-prd,,,root,10.0.1.140,exc-mail02-prd,,50636,6,,,,potentially_blocked
+10.0.1.139,exc-et01-prd,,,root,10.0.1.134,exc-mail01-prd,,50636,6,,,,potentially_blocked
+10.0.1.139,exc-et01-prd,,,,10.0.1.134,exc-mail01-prd,,50636,6,,,root,potentially_blocked
+10.0.1.140,exc-mail02-prd,,,root,10.0.1.134,exc-mail01-prd,,50636,6,,,,potentially_blocked
+10.0.1.140,exc-mail02-prd,,,,10.0.1.134,exc-mail01-prd,,50636,6,,,root,potentially_blocked
+10.0.1.140,exc-mail02-prd,mysqld,,mysql,10.10.100.225,,,3306,6,,,,potentially_blocked
+10.0.1.140,exc-mail02-prd,mysqld,,mysql,10.10.100.224,,,3306,6,,,,potentially_blocked
+10.0.1.134,exc-mail01-prd,,,,10.0.1.140,exc-mail02-prd,,50636,6,,,root,potentially_blocked
+10.0.1.134,exc-mail01-prd,,,root,10.0.1.140,exc-mail02-prd,,50636,6,,,,potentially_blocked
+10.0.1.134,exc-mail01-prd,mysqld,,mysql,10.10.100.225,,,3306,6,,,,potentially_blocked
+10.0.1.134,exc-mail01-prd,mysqld,,mysql,10.10.100.224,,,3306,6,,,,potentially_blocked
+10.0.1.32,acd-dc02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.32,acd-dc02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.32,acd-dc02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.32,acd-dc02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.32,acd-dc02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.130,acd-dc03-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.130,acd-dc03-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.130,acd-dc03-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.130,acd-dc03-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.130,acd-dc03-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.22,acd-dc01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.22,acd-dc01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.22,acd-dc01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.22,acd-dc01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.22,acd-dc01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.141,swf-web01-prd,httpd,,root,10.0.1.142,swf-gw02-prd,,443,6,,,,potentially_blocked
+10.0.1.141,swf-web01-prd,,,,10.0.1.142,swf-gw02-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.141,swf-web01-prd,,,,10.0.1.138,swf-gw01-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.141,swf-web01-prd,httpd,,root,10.0.1.138,swf-gw01-prd,,443,6,,,,potentially_blocked
+10.0.1.142,swf-gw02-prd,httpd,,root,35.234.138.138,,api.swift.com,443,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.26,prc-db02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.26,prc-db02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.17,prc-db01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.17,prc-db01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.12,prc-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.12,prc-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.4,prc-proc01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.4,prc-proc01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.6,prc-web03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.6,prc-web03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.30,prc-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.30,prc-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.21,prc-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.21,prc-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.25,ast-web03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.25,ast-web03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.36,ast-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.36,ast-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.8,ast-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.8,ast-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.35,ast-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.35,ast-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.24,ast-proc01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.24,ast-proc01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.10,ast-db02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.10,ast-db02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.20,ast-db01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.20,ast-db01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.23,hrm-web03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.23,hrm-web03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.18,ord-db01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.18,ord-db01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.29,ord-db02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.29,ord-db02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.33,ord-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.33,ord-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.27,ord-proc01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.27,ord-proc01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.31,ord-web03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.31,ord-web03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.15,ord-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.15,ord-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.9,ord-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.9,ord-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.14,hrm-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.14,hrm-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.5,pos-proc05-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.5,pos-proc05-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.4,pos-proc07-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.4,pos-proc07-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.3,pos-proc06-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.3,pos-proc06-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.6,pos-web04-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.6,pos-web04-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.16,hrm-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.16,hrm-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.7,pos-web05-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.7,pos-web05-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.68,pos-proc06-pci,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.68,pos-proc06-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.66,pos-proc03-pci,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.66,pos-proc03-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.72,pos-proc02-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.72,pos-proc02-pci,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.69,pos-web02-pci,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.69,pos-web02-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.70,pos-web03-pci,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.70,pos-web03-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.11,hrm-db02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.11,hrm-db02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.134,pos-proc01-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.134,pos-proc01-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.131,pos-proc04-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.131,pos-proc04-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.136,pos-proc03-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.136,pos-proc03-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.135,pos-web03-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.135,pos-web03-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.130,pos-web02-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.130,pos-web02-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.69,pos-proc02-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.69,pos-proc02-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.67,pos-proc08-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.67,pos-proc08-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.68,pos-proc09-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.68,pos-proc09-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.71,pos-web06-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.71,pos-web06-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.2.70,pos-web01-stg,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.2.70,pos-web01-stg,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.1.13,hrm-db01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.1.13,hrm-db01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.136,cat-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.136,cat-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.137,cat-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.137,cat-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.138,cat-proc01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.138,cat-proc01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.132,cat-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.132,cat-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.141,cat-proc03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.141,cat-proc03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.134,shc-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.134,shc-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.140,shc-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.140,shc-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.130,shc-proc01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.130,shc-proc01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.139,shc-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.139,shc-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.133,shc-proc03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.133,shc-proc03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.195,ecm-web01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.195,ecm-web01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.197,ecm-web02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.197,ecm-web02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.196,ecm-web03-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.196,ecm-web03-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.199,ecm-web04-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.199,ecm-web04-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.194,ecm-web05-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.194,ecm-web05-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.203,ecm-web06-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.203,ecm-web06-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.202,ecm-proc01-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.202,ecm-proc01-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.200,ecm-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.200,ecm-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,,,,10.0.0.198,ecm-proc02-prd,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.0.0.198,ecm-proc02-prd,,5666,6,,,,potentially_blocked
+10.0.1.138,swf-gw01-prd,httpd,,root,35.234.138.138,,api.swift.com,443,6,,,,potentially_blocked
+10.0.1.138,swf-gw01-prd,,,,149.134.177.224,,swift.com,443,6,,,,potentially_blocked
+10.0.0.8,ord-db02-dev,postgres,,postgres,10.0.0.10,ord-db01-dev,,5432,6,,,,potentially_blocked
+10.0.0.8,ord-db02-dev,,,,10.0.0.10,ord-db01-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.10,ord-db01-dev,,,,10.0.0.8,ord-db02-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.10,ord-db01-dev,postgres,,postgres,10.0.0.8,ord-db02-dev,,5432,6,,,,potentially_blocked
+10.0.0.10,ord-db01-dev,postgres,,postgres,10.0.1.29,ord-db01-prod,,5432,6,,,,potentially_blocked
+10.0.0.10,ord-db01-dev,postgres,,postgres,10.0.1.18,ord-db02-prod,,5432,6,,,,potentially_blocked
+10.0.0.8,ord-db01-dev,postgres,,postgres,10.0.1.18,ord-db02-prod,,5432,6,,,,potentially_blocked
+10.0.0.8,ord-db01-dev,postgres,,postgres,10.0.1.29,ord-db01-prod,,5432,6,,,,potentially_blocked
+10.0.0.6,ord-proc02-dev,java,,tomcat,10.0.0.8,ord-db02-dev,,5432,6,,,,potentially_blocked
+10.0.0.6,ord-proc02-dev,,,,10.0.0.8,ord-db02-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.6,ord-proc02-dev,java,,tomcat,10.0.0.10,ord-db01-dev,,5432,6,,,,potentially_blocked
+10.0.0.6,ord-proc02-dev,,,,10.0.0.10,ord-db01-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.4,ord-proc01-dev,,,,10.0.0.8,ord-db02-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.4,ord-proc01-dev,java,,tomcat,10.0.0.8,ord-db02-dev,,5432,6,,,,potentially_blocked
+10.0.0.4,ord-proc01-dev,java,,tomcat,10.0.0.10,ord-db01-dev,,5432,6,,,,potentially_blocked
+10.0.0.4,ord-proc01-dev,,,,10.0.0.10,ord-db01-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.7,ord-web03-dev,,,,10.0.0.6,ord-proc02-dev,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.7,ord-web03-dev,httpd,,root,10.0.0.6,ord-proc02-dev,,8070,6,,,,potentially_blocked
+10.0.0.7,ord-web03-dev,,,,10.0.0.4,ord-proc01-dev,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.7,ord-web03-dev,httpd,,root,10.0.0.4,ord-proc01-dev,,8070,6,,,,potentially_blocked
+10.0.0.2,ord-web02-dev,,,,10.0.0.6,ord-proc02-dev,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.2,ord-web02-dev,httpd,,root,10.0.0.6,ord-proc02-dev,,8070,6,,,,potentially_blocked
+10.0.0.2,ord-web02-dev,,,,10.0.0.4,ord-proc01-dev,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.2,ord-web02-dev,httpd,,root,10.0.0.4,ord-proc01-dev,,8070,6,,,,potentially_blocked
+10.0.0.9,ord-web01-dev,httpd,,root,10.0.0.6,ord-proc02-dev,,8070,6,,,,potentially_blocked
+10.0.0.9,ord-web01-dev,,,,10.0.0.6,ord-proc02-dev,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.9,ord-web01-dev,httpd,,root,10.0.0.4,ord-proc01-dev,,8070,6,,,,potentially_blocked
+10.0.0.9,ord-web01-dev,,,,10.0.0.4,ord-proc01-dev,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.3,ord-lb02-dev,httpd,,root,10.0.0.7,ord-web03-dev,,8080,6,,,,potentially_blocked
+10.0.0.3,ord-lb02-dev,,,,10.0.0.7,ord-web03-dev,,8080,6,app_server,,root,potentially_blocked
+10.0.0.3,ord-lb02-dev,,,,10.0.0.2,ord-web02-dev,,8080,6,app_server,,root,potentially_blocked
+10.0.0.3,ord-lb02-dev,httpd,,root,10.0.0.2,ord-web02-dev,,8080,6,,,,potentially_blocked
+10.0.0.3,ord-lb02-dev,,,,10.0.0.9,ord-web01-dev,,8080,6,app_server,,root,potentially_blocked
+10.0.0.3,ord-lb02-dev,httpd,,root,10.0.0.9,ord-web01-dev,,8080,6,,,,potentially_blocked
+10.0.0.5,ord-lb01-dev,httpd,,root,10.0.0.7,ord-web03-dev,,8080,6,,,,potentially_blocked
+10.0.0.5,ord-lb01-dev,,,,10.0.0.7,ord-web03-dev,,8080,6,app_server,,root,potentially_blocked
+10.0.0.5,ord-lb01-dev,httpd,,root,10.0.0.2,ord-web02-dev,,8080,6,,,,potentially_blocked
+10.0.0.5,ord-lb01-dev,,,,10.0.0.2,ord-web02-dev,,8080,6,app_server,,root,potentially_blocked
+10.0.0.5,ord-lb01-dev,,,,10.0.0.9,ord-web01-dev,,8080,6,app_server,,root,potentially_blocked
+10.0.0.5,ord-lb01-dev,httpd,,root,10.0.0.9,ord-web01-dev,,8080,6,,,,potentially_blocked
+10.0.1.23,hrm-web03-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.23,hrm-web03-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.23,hrm-web03-prd,,,,10.0.1.11,hrm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.23,hrm-web03-prd,mysqld,,mysql,10.0.1.11,hrm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.23,hrm-web03-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.23,hrm-web03-prd,mysqld,,mysql,10.0.1.13,hrm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.23,hrm-web03-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.23,hrm-web03-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.18,ord-db01-prd,postgres,,postgres,10.0.1.29,ord-db02-prd,,5432,6,,,,potentially_blocked
+10.0.1.18,ord-db01-prd,postgres,,postgres,10.0.0.8,ord-db01-dev,,5432,6,,,,potentially_blocked
+10.0.1.18,ord-db01-prd,postgres,,postgres,10.0.0.10,ord-db02-dev,,5432,6,,,,potentially_blocked
+10.0.1.18,ord-db01-prd,,,,10.0.1.29,ord-db02-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.18,ord-db01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.18,ord-db01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.18,ord-db01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.18,ord-db01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.29,ord-db02-prd,,,,10.0.1.18,ord-db01-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.29,ord-db02-prd,postgres,,postgres,10.0.1.18,ord-db01-prd,,5432,6,,,,potentially_blocked
+10.0.1.29,ord-db02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.29,ord-db02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.29,ord-db02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.29,ord-db02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.29,ord-db02-prd,,,,10.0.0.8,ord-db01-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.29,ord-db02-prd,,,,10.0.0.,ord-db02-dev,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.33,ord-proc02-prd,java,,tomcat,10.0.1.18,ord-db01-prd,,5432,6,,,,potentially_blocked
+10.0.1.33,ord-proc02-prd,,,,10.0.1.18,ord-db01-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.33,ord-proc02-prd,java,,tomcat,10.0.1.29,ord-db02-prd,,5432,6,,,,potentially_blocked
+10.0.1.33,ord-proc02-prd,,,,10.0.1.29,ord-db02-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.33,ord-proc02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.33,ord-proc02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.33,ord-proc02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.33,ord-proc02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.0.72,pos-proc02-pci,,7676,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.1.18,ord-db01-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.27,ord-proc01-prd,java,,tomcat,10.0.1.18,ord-db01-prd,,5432,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,java,,tomcat,10.0.1.29,ord-db02-prd,,5432,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.1.29,ord-db02-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.27,ord-proc01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.0.72,pos-proc02-pci,,22,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.0.72,pos-proc02-pci,,22,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.31,ord-web03-prd,httpd,,root,10.0.1.33,ord-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.31,ord-web03-prd,,,,10.0.1.33,ord-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.31,ord-web03-prd,,,,10.0.1.27,ord-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.31,ord-web03-prd,httpd,,root,10.0.1.27,ord-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.31,ord-web03-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.31,ord-web03-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.31,ord-web03-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.31,ord-web03-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.15,ord-web02-prd,,,,10.0.1.33,ord-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.15,ord-web02-prd,httpd,,root,10.0.1.33,ord-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.15,ord-web02-prd,,,,10.0.1.27,ord-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.15,ord-web02-prd,httpd,,root,10.0.1.27,ord-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.15,ord-web02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.15,ord-web02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.15,ord-web02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.15,ord-web02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.9,ord-web01-prd,,,,10.0.1.33,ord-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.9,ord-web01-prd,httpd,,root,10.0.1.33,ord-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.9,ord-web01-prd,httpd,,root,10.0.1.27,ord-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.9,ord-web01-prd,,,,10.0.1.27,ord-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.9,ord-web01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.9,ord-web01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.9,ord-web01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.9,ord-web01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.28,ord-lb01-prd,httpd,,root,10.0.1.31,ord-web03-prd,,8080,6,,,,potentially_blocked
+10.0.1.28,ord-lb01-prd,,,,10.0.1.31,ord-web03-prd,,8080,6,app_server,,root,potentially_blocked
+10.0.1.28,ord-lb01-prd,,,,10.0.1.15,ord-web02-prd,,8080,6,app_server,,root,potentially_blocked
+10.0.1.28,ord-lb01-prd,httpd,,root,10.0.1.15,ord-web02-prd,,8080,6,,,,potentially_blocked
+10.0.1.28,ord-lb01-prd,,,,10.0.1.9,ord-web01-prd,,8080,6,app_server,,root,potentially_blocked
+10.0.1.28,ord-lb01-prd,httpd,,root,10.0.1.9,ord-web01-prd,,8080,6,,,,potentially_blocked
+10.0.1.19,ord-lb02-prd,,,,10.0.1.31,ord-web03-prd,,8080,6,app_server,,root,potentially_blocked
+10.0.1.19,ord-lb02-prd,httpd,,root,10.0.1.31,ord-web03-prd,,8080,6,,,,potentially_blocked
+10.0.1.19,ord-lb02-prd,httpd,,root,10.0.1.15,ord-web02-prd,,8080,6,,,,potentially_blocked
+10.0.1.19,ord-lb02-prd,,,,10.0.1.15,ord-web02-prd,,8080,6,app_server,,root,potentially_blocked
+10.0.1.19,ord-lb02-prd,httpd,,root,10.0.1.9,ord-web01-prd,,8080,6,,,,potentially_blocked
+10.0.1.19,ord-lb02-prd,,,,10.0.1.9,ord-web01-prd,,8080,6,app_server,,root,potentially_blocked
+10.0.1.14,hrm-web02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.14,hrm-web02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.14,hrm-web02-prd,,,,10.0.1.11,hrm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.14,hrm-web02-prd,mysqld,,mysql,10.0.1.11,hrm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.14,hrm-web02-prd,mysqld,,mysql,10.0.1.13,hrm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.14,hrm-web02-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.14,hrm-web02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.14,hrm-web02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.8,pos-db03-stg,,,,10.0.2.2,pos-db02-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.8,pos-db03-stg,postgres,,postgres,10.0.2.2,pos-db02-stg,,5432,6,,,,potentially_blocked
+10.0.2.8,pos-db03-stg,postgres,,postgres,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.2.8,pos-db03-stg,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.8,pos-db03-stg,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.8,pos-db03-stg,postgres,,postgres,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.2.2,pos-db02-stg,,,,10.0.2.8,pos-db03-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.2,pos-db02-stg,postgres,,postgres,10.0.2.8,pos-db03-stg,,5432,6,,,,potentially_blocked
+10.0.2.2,pos-db02-stg,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.2,pos-db02-stg,postgres,,postgres,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.2.2,pos-db02-stg,postgres,,postgres,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.2.2,pos-db02-stg,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.5,pos-proc05-stg,java,,tomcat,10.0.2.8,pos-db03-stg,,5432,6,,,,potentially_blocked
+10.0.2.5,pos-proc05-stg,,,,10.0.2.8,pos-db03-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.5,pos-proc05-stg,java,,tomcat,10.0.2.2,pos-db02-stg,,5432,6,,,,potentially_blocked
+10.0.2.5,pos-proc05-stg,,,,10.0.2.2,pos-db02-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.5,pos-proc05-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.5,pos-proc05-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.5,pos-proc05-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.5,pos-proc05-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.4,pos-proc07-stg,,,,10.0.2.8,pos-db03-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.4,pos-proc07-stg,java,,tomcat,10.0.2.8,pos-db03-stg,,5432,6,,,,potentially_blocked
+10.0.2.4,pos-proc07-stg,,,,10.0.2.2,pos-db02-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.4,pos-proc07-stg,java,,tomcat,10.0.2.2,pos-db02-stg,,5432,6,,,,potentially_blocked
+10.0.2.4,pos-proc07-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.4,pos-proc07-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.4,pos-proc07-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.4,pos-proc07-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.3,pos-proc06-stg,java,,tomcat,10.0.2.8,pos-db03-stg,,5432,6,,,,potentially_blocked
+10.0.2.3,pos-proc06-stg,,,,10.0.2.8,pos-db03-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.3,pos-proc06-stg,java,,tomcat,10.0.2.2,pos-db02-stg,,5432,6,,,,potentially_blocked
+10.0.2.3,pos-proc06-stg,,,,10.0.2.2,pos-db02-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.3,pos-proc06-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.3,pos-proc06-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.3,pos-proc06-stg,,,,10.0.2.2,pos-db02-stg,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.2.3,pos-proc06-stg,java,,tomcat,10.0.2.2,pos-db02-stg,,3306,6,,,,potentially_blocked
+10.0.2.3,pos-proc06-stg,,,,10.0.2.2,pos-db02-stg,,138,6,,,root,potentially_blocked
+10.0.2.3,pos-proc06-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.3,pos-proc06-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.6,pos-web04-stg,,,,10.0.2.7,pos-web05-stg,,8080,6,app_server,,root,potentially_blocked
+10.0.2.6,pos-web04-stg,httpd,,root,10.0.2.7,pos-web05-stg,,8080,6,,,,potentially_blocked
+10.0.2.6,pos-web04-stg,,,,10.0.2.5,pos-proc05-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.6,pos-web04-stg,httpd,,root,10.0.2.5,pos-proc05-stg,,8070,6,,,,potentially_blocked
+10.0.2.6,pos-web04-stg,,,,10.0.2.4,pos-proc07-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.6,pos-web04-stg,httpd,,root,10.0.2.4,pos-proc07-stg,,8070,6,,,,potentially_blocked
+10.0.2.6,pos-web04-stg,httpd,,root,10.0.2.3,pos-proc06-stg,,8070,6,,,,potentially_blocked
+10.0.2.6,pos-web04-stg,,,,10.0.2.3,pos-proc06-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.6,pos-web04-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.6,pos-web04-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.6,pos-web04-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.6,pos-web04-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.16,hrm-web01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.16,hrm-web01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.16,hrm-web01-prd,,,,10.0.1.11,hrm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.16,hrm-web01-prd,mysqld,,mysql,10.0.1.11,hrm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.16,hrm-web01-prd,mysqld,,mysql,10.0.1.13,hrm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.16,hrm-web01-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.16,hrm-web01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.16,hrm-web01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.7,pos-web05-stg,httpd,,root,10.0.2.5,pos-proc05-stg,,8070,6,,,,potentially_blocked
+10.0.2.7,pos-web05-stg,,,,10.0.2.5,pos-proc05-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.7,pos-web05-stg,,,,10.0.2.4,pos-proc07-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.7,pos-web05-stg,httpd,,root,10.0.2.4,pos-proc07-stg,,8070,6,,,,potentially_blocked
+10.0.2.7,pos-web05-stg,httpd,,root,10.0.2.3,pos-proc06-stg,,8070,6,,,,potentially_blocked
+10.0.2.7,pos-web05-stg,,,,10.0.2.3,pos-proc06-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.7,pos-web05-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.7,pos-web05-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.7,pos-web05-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.7,pos-web05-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.67,pos-db04-pci,mysqld,,mysql,10.0.0.71,pos-db02-pci,,3306,6,,,,potentially_blocked
+10.0.0.67,pos-db04-pci,,,,10.0.0.71,pos-db02-pci,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.67,pos-db04-pci,,,,10.0.0.78,pos-db01-pci,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.67,pos-db04-pci,mysqld,,mysql,10.0.0.78,pos-db01-pci,,3306,6,,,,potentially_blocked
+10.0.0.71,pos-db02-pci,,,,10.0.0.67,pos-db04-pci,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.71,pos-db02-pci,mysqld,,mysql,10.0.0.67,pos-db04-pci,,3306,6,,,,potentially_blocked
+10.0.0.71,pos-db02-pci,mysqld,,mysql,10.0.0.76,pos-db03-pci,,3306,6,,,,potentially_blocked
+10.0.0.71,pos-db02-pci,,,,10.0.0.76,pos-db03-pci,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.68,pos-proc06-pci,httpd,,root,10.0.0.66,pos-proc03-pci,,8070,6,,,,potentially_blocked
+10.0.0.68,pos-proc06-pci,,,,10.0.0.66,pos-proc03-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.68,pos-proc06-pci,java,,tomcat,10.0.0.67,pos-db04-pci,,5432,6,,,,potentially_blocked
+10.0.0.68,pos-proc06-pci,,,,10.0.0.67,pos-db04-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.68,pos-proc06-pci,,,,10.0.0.71,pos-db02-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.68,pos-proc06-pci,java,,tomcat,10.0.0.71,pos-db02-pci,,5432,6,,,,potentially_blocked
+10.0.0.68,pos-proc06-pci,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.68,pos-proc06-pci,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.0.68,pos-proc06-pci,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.0.68,pos-proc06-pci,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.66,pos-proc03-pci,httpd,,root,10.0.0.72,pos-proc02-pci,,8070,6,,,,potentially_blocked
+10.0.0.66,pos-proc03-pci,,,,10.0.0.72,pos-proc02-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.66,pos-proc03-pci,,,,10.0.0.67,pos-db04-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.66,pos-proc03-pci,java,,tomcat,10.0.0.67,pos-db04-pci,,5432,6,,,,potentially_blocked
+10.0.0.66,pos-proc03-pci,java,,tomcat,10.0.0.71,pos-db02-pci,,5432,6,,,,potentially_blocked
+10.0.0.66,pos-proc03-pci,,,,10.0.0.71,pos-db02-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.66,pos-proc03-pci,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.0.66,pos-proc03-pci,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.66,pos-proc03-pci,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.0.66,pos-proc03-pci,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.72,pos-proc02-pci,,,,10.0.0.67,pos-db04-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.72,pos-proc02-pci,java,,tomcat,10.0.0.67,pos-db04-pci,,5432,6,,,,potentially_blocked
+10.0.0.72,pos-proc02-pci,,,,10.0.0.71,pos-db02-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.72,pos-proc02-pci,java,,tomcat,10.0.0.71,pos-db02-pci,,5432,6,,,,potentially_blocked
+10.0.0.72,pos-proc02-pci,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.0.72,pos-proc02-pci,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.72,pos-proc02-pci,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.0.72,pos-proc02-pci,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.69,pos-web02-pci,httpd,,root,10.0.0.70,pos-web03-pci,,8080,6,,,,potentially_blocked
+10.0.0.69,pos-web02-pci,,,,10.0.0.70,pos-web03-pci,,8080,6,app_server,,root,potentially_blocked
+10.0.0.69,pos-web02-pci,,,,10.0.0.68,pos-proc06-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.69,pos-web02-pci,httpd,,root,10.0.0.68,pos-proc06-pci,,8070,6,,,,potentially_blocked
+10.0.0.69,pos-web02-pci,,,,10.0.0.66,pos-proc03-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.69,pos-web02-pci,httpd,,root,10.0.0.66,pos-proc03-pci,,8070,6,,,,potentially_blocked
+10.0.0.69,pos-web02-pci,,,,10.0.0.72,pos-proc02-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.69,pos-web02-pci,httpd,,root,10.0.0.72,pos-proc02-pci,,8070,6,,,,potentially_blocked
+10.0.0.69,pos-web02-pci,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.0.69,pos-web02-pci,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.69,pos-web02-pci,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.69,pos-web02-pci,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.0.70,pos-web03-pci,httpd,,root,10.0.0.68,pos-proc06-pci,,8070,6,,,,potentially_blocked
+10.0.0.70,pos-web03-pci,,,,10.0.0.68,pos-proc06-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.70,pos-web03-pci,,,,10.0.0.66,pos-proc03-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.70,pos-web03-pci,httpd,,root,10.0.0.66,pos-proc03-pci,,8070,6,,,,potentially_blocked
+10.0.0.70,pos-web03-pci,,,,10.0.0.72,pos-proc02-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.70,pos-web03-pci,httpd,,root,10.0.0.72,pos-proc02-pci,,8070,6,,,,potentially_blocked
+10.0.0.70,pos-web03-pci,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.70,pos-web03-pci,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.0.70,pos-web03-pci,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.0.70,pos-web03-pci,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.133,acd-dc04-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.133,acd-dc04-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.133,acd-dc04-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.133,acd-dc04-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.133,acd-dc04-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.133,acd-dc04-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.133,acd-dc04-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.133,acd-dc04-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.133,acd-dc04-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.133,acd-dc04-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.130,acd-dc03-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.130,acd-dc03-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.130,acd-dc03-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.130,acd-dc03-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.130,acd-dc03-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.132,inf-nagios02-prd,,,,10.0.0.74,pos-proc05-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.0.0.74,pos-proc05-pci,,5666,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,,,,10.0.0.77,pos-proc04-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.0.0.77,pos-proc04-pci,,5666,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.0.0.75,pos-proc01-pci,,5666,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,,,,10.0.0.75,pos-proc01-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.0.0.79,pos-web01-pci,,5666,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,,,,10.0.0.79,pos-web01-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.132,inf-nagios02-prd,,,,10.0.0.73,pos-web04-pci,,5666,6,nrpe,,nagios,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.0.0.73,pos-web04-pci,,5666,6,,,,potentially_blocked
+10.0.1.206,pay-db03-prd,postgres,,postgres,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.1.206,pay-db03-prd,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.200,pay-db04-prd,postgres,,postgres,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.1.200,pay-db04-prd,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.205,pay-proc02-prd,java,,tomcat,10.0.1.206,pay-db03-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.205,pay-proc02-prd,java,,tomcat,10.0.1.206,pay-db03-prd,,3306,6,,,,potentially_blocked
+10.0.1.203,pay-proc05-prd,java,,tomcat,10.0.1.206,pay-db03-prd,,3306,6,,,,potentially_blocked
+10.0.1.203,pay-proc05-prd,,,,10.0.1.206,pay-db03-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.203,pay-proc05-prd,,,,10.0.1.200,pay-db04-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.203,pay-proc05-prd,java,,tomcat,10.0.1.200,pay-db04-prd,,3306,6,,,,potentially_blocked
+10.0.1.207,pay-proc04-prd,java,,tomcat,10.0.1.200,pay-db04-prd,,3306,6,,,,potentially_blocked
+10.0.1.207,pay-proc04-prd,,,,10.0.1.200,pay-db04-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.204,pay-web01-prd,httpd,,root,10.0.1.205,pay-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.1.204,pay-web01-prd,,,,10.0.1.205,pay-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.204,pay-web01-prd,,,,10.0.1.203,pay-proc05-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.204,pay-web01-prd,httpd,,root,10.0.1.203,pay-proc05-prd,,8070,6,,,,potentially_blocked
+10.0.1.11,hrm-db02-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.11,hrm-db02-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.11,hrm-db02-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.11,hrm-db02-prd,mysqld,,mysql,10.0.1.13,hrm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.11,hrm-db02-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.11,hrm-db02-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.198,pay-web02-prd,,,,10.0.1.203,pay-proc05-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.198,pay-web02-prd,httpd,,root,10.0.1.203,pay-proc05-prd,,8070,6,,,,potentially_blocked
+10.0.1.198,pay-web02-prd,httpd,,root,10.0.1.207,pay-proc04-prd,,8070,6,,,,potentially_blocked
+10.0.1.198,pay-web02-prd,,,,10.0.1.207,pay-proc04-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.199,ord-db06-prd,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.199,ord-db06-prd,postgres,,postgres,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.1.195,ord-db05-prd,postgres,,postgres,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.194,ord-proc07-prd,,,,10.0.1.199,ord-db06-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.194,ord-proc07-prd,java,,tomcat,10.0.1.199,ord-db06-prd,,3306,6,,,,potentially_blocked
+10.0.1.202,ord-proc06-prd,java,,tomcat,10.0.1.199,ord-db06-prd,,3306,6,,,,potentially_blocked
+10.0.1.202,ord-proc06-prd,,,,10.0.1.199,ord-db06-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.202,ord-proc06-prd,java,,tomcat,10.0.1.195,ord-db05-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.196,ord-proc08-prd,java,,tomcat,10.0.1.195,ord-db05-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.197,ord-web07-prd,,,,10.0.1.194,ord-proc07-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.197,ord-web07-prd,httpd,,root,10.0.1.194,ord-proc07-prd,,8070,6,,,,potentially_blocked
+10.0.1.197,ord-web07-prd,,,,10.0.1.202,ord-proc06-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.197,ord-web07-prd,httpd,,root,10.0.1.202,ord-proc06-prd,,8070,6,,,,potentially_blocked
+10.0.1.201,ord-web04-prd,,,,10.0.1.202,ord-proc06-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.201,ord-web04-prd,httpd,,root,10.0.1.202,ord-proc06-prd,,8070,6,,,,potentially_blocked
+10.0.1.201,ord-web04-prd,httpd,,root,10.0.1.196,ord-proc08-prd,,8070,6,,,,potentially_blocked
+10.0.1.201,ord-web04-prd,,,,10.0.1.196,ord-proc08-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.68,ord-db03-prd,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.68,ord-db03-prd,postgres,,postgres,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.1.74,ord-db04-prd,postgres,,postgres,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.1.74,ord-db04-prd,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.80,ord-proc03-prd,,,,10.0.1.68,ord-db03-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.80,ord-proc03-prd,java,,tomcat,10.0.1.68,ord-db03-prd,,3306,6,,,,potentially_blocked
+10.0.1.80,ord-proc03-prd,java,,tomcat,10.0.1.74,ord-db04-prd,,3306,6,,,,potentially_blocked
+10.0.1.80,ord-proc03-prd,,,,10.0.1.74,ord-db04-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.77,ord-proc05-prd,java,,tomcat,10.0.1.74,ord-db04-prd,,3306,6,,,,potentially_blocked
+10.0.1.77,ord-proc05-prd,,,,10.0.1.74,ord-db04-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.71,ord-proc04-prd,java,,tomcat,10.0.1.74,ord-db04-prd,,3306,6,,,,potentially_blocked
+10.0.1.71,ord-proc04-prd,,,,10.0.1.74,ord-db04-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.75,ord-web06-prd,,,,10.0.1.80,ord-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.75,ord-web06-prd,httpd,,root,10.0.1.80,ord-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.1.75,ord-web06-prd,httpd,,root,10.0.1.77,ord-proc05-prd,,8070,6,,,,potentially_blocked
+10.0.1.75,ord-web06-prd,,,,10.0.1.77,ord-proc05-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.83,ord-web05-prd,,,,10.0.1.77,ord-proc05-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.83,ord-web05-prd,httpd,,root,10.0.1.77,ord-proc05-prd,,8070,6,,,,potentially_blocked
+10.0.1.83,ord-web05-prd,,,,10.0.1.71,ord-proc04-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.83,ord-web05-prd,httpd,,root,10.0.1.71,ord-proc04-prd,,8070,6,,,,potentially_blocked
+10.0.0.141,cat-proc03-prd,java,,tomcat,10.0.0.135,cat-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.141,cat-proc03-prd,,,,10.0.0.135,cat-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.141,cat-proc03-prd,,,,10.0.0.142,cat-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.141,cat-proc03-prd,java,,tomcat,10.0.0.142,cat-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.132,cat-proc02-prd,,,,10.0.0.135,cat-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.132,cat-proc02-prd,java,,tomcat,10.0.0.135,cat-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.138,cat-proc01-prd,java,,tomcat,10.0.0.142,cat-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.138,cat-proc01-prd,,,,10.0.0.142,cat-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.137,cat-web02-prd,httpd,,root,10.0.0.141,cat-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.0.137,cat-web02-prd,,,,10.0.0.141,cat-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.137,cat-web02-prd,,,,10.0.0.132,cat-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.137,cat-web02-prd,httpd,,root,10.0.0.132,cat-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.137,cat-web02-prd,httpd,,root,10.0.0.138,cat-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.137,cat-web02-prd,,,,10.0.0.138,cat-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.136,cat-web01-prd,,,,10.0.0.141,cat-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.136,cat-web01-prd,httpd,,root,10.0.0.141,cat-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.0.136,cat-web01-prd,httpd,,root,10.0.0.132,cat-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.136,cat-web01-prd,,,,10.0.0.132,cat-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.136,cat-web01-prd,httpd,,root,10.0.0.138,cat-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.136,cat-web01-prd,,,,10.0.0.138,cat-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.139,shc-proc02-prd,,,,10.0.0.131,shc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.139,shc-proc02-prd,java,,tomcat,10.0.0.131,shc-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.130,shc-proc01-prd,java,,tomcat,10.0.0.131,shc-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.130,shc-proc01-prd,,,,10.0.0.131,shc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.130,shc-proc01-prd,java,,tomcat,10.0.0.143,shc-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.130,shc-proc01-prd,,,,10.0.0.143,shc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.133,shc-proc03-prd,,,,10.0.0.143,shc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.133,shc-proc03-prd,java,,tomcat,10.0.0.143,shc-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.140,shc-web02-prd,,,,10.0.0.139,shc-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.140,shc-web02-prd,httpd,,root,10.0.0.139,shc-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.140,shc-web02-prd,httpd,,root,10.0.0.138,cat-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.140,shc-web02-prd,,,,10.0.0.138,cat-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.140,shc-web02-prd,,,,10.0.0.130,shc-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.140,shc-web02-prd,httpd,,root,10.0.0.130,shc-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.140,shc-web02-prd,httpd,,root,10.0.0.133,shc-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.0.140,shc-web02-prd,,,,10.0.0.133,shc-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.134,shc-web01-prd,,,,10.0.0.138,cat-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.134,shc-web01-prd,httpd,,root,10.0.0.138,cat-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.134,shc-web01-prd,,,,10.0.0.139,shc-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.134,shc-web01-prd,httpd,,root,10.0.0.139,shc-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.134,shc-web01-prd,httpd,,root,10.0.0.130,shc-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.134,shc-web01-prd,,,,10.0.0.130,shc-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.134,shc-web01-prd,httpd,,root,10.0.0.133,shc-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.0.134,shc-web01-prd,,,,10.0.0.133,shc-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.81,pay-db01-prd,postgres,,postgres,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.1.81,pay-db01-prd,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.85,pay-db02-prd,postgres,,postgres,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.1.85,pay-db02-prd,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.79,pay-proc01-prd,java,,tomcat,10.0.1.81,pay-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.79,pay-proc01-prd,,,,10.0.1.81,pay-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.79,pay-proc01-prd,,,,10.0.1.85,pay-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.79,pay-proc01-prd,java,,tomcat,10.0.1.85,pay-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.82,pay-proc03-prd,java,,tomcat,10.0.1.81,pay-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.82,pay-proc03-prd,,,,10.0.1.81,pay-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.82,pay-proc03-prd,,,,10.0.1.85,pay-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.82,pay-proc03-prd,java,,tomcat,10.0.1.85,pay-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.70,pay-web05-prd,httpd,,root,10.0.1.79,pay-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.70,pay-web05-prd,,,,10.0.1.79,pay-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.70,pay-web05-prd,,,,10.0.1.82,pay-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.70,pay-web05-prd,httpd,,root,10.0.1.82,pay-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.1.72,pay-web03-prd,,,,10.0.1.79,pay-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.72,pay-web03-prd,httpd,,root,10.0.1.79,pay-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.72,pay-web03-prd,httpd,,root,10.0.1.82,pay-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.1.72,pay-web03-prd,,,,10.0.1.82,pay-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.86,pay-web04-prd,,,,10.0.1.79,pay-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.86,pay-web04-prd,httpd,,root,10.0.1.79,pay-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.1.86,pay-web04-prd,httpd,,root,10.0.1.82,pay-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.1.86,pay-web04-prd,,,,10.0.1.82,pay-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.1.69,swf-gw04-prd,httpd,,root,35.234.138.138,,api.swift.com,443,6,,,,potentially_blocked
+10.0.1.69,swf-gw04-prd,,,,23.39.115.199,,swift.com,443,6,,,,potentially_blocked
+10.0.1.84,swf-gw03-prd,httpd,,root,35.234.138.138,,api.swift.com,443,6,,,,potentially_blocked
+10.0.1.84,swf-gw03-prd,,,,149.134.177.224,,swift.com,443,6,,,,potentially_blocked
+10.0.1.73,swf-web08-prd,httpd,,root,10.0.1.69,swf-gw04-prd,,443,6,,,,potentially_blocked
+10.0.1.73,swf-web08-prd,,,,10.0.1.69,swf-gw04-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.73,swf-web08-prd,httpd,,root,10.0.1.84,swf-gw03-prd,,443,6,,,,potentially_blocked
+10.0.1.73,swf-web08-prd,,,,10.0.1.84,swf-gw03-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.67,swf-web07-prd,,,,10.0.1.69,swf-gw04-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.67,swf-web07-prd,httpd,,root,10.0.1.69,swf-gw04-prd,,443,6,,,,potentially_blocked
+10.0.1.67,swf-web07-prd,,,,10.0.1.84,swf-gw03-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.67,swf-web07-prd,httpd,,root,10.0.1.84,swf-gw03-prd,,443,6,,,,potentially_blocked
+10.0.1.76,swf-web06-prd,httpd,,root,10.0.1.69,swf-gw04-prd,,443,6,,,,potentially_blocked
+10.0.1.76,swf-web06-prd,,,,10.0.1.69,swf-gw04-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.76,swf-web06-prd,,,,10.0.1.84,swf-gw03-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.76,swf-web06-prd,httpd,,root,10.0.1.84,swf-gw03-prd,,443,6,,,,potentially_blocked
+10.0.1.78,swf-web05-prd,,,,10.0.1.69,swf-gw04-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.78,swf-web05-prd,httpd,,root,10.0.1.69,swf-gw04-prd,,443,6,,,,potentially_blocked
+10.0.1.78,swf-web05-prd,httpd,,root,10.0.1.84,swf-gw03-prd,,443,6,,,,potentially_blocked
+10.0.1.78,swf-web05-prd,,,,10.0.1.84,swf-gw03-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.66,swf-web04-prd,httpd,,root,10.0.1.69,swf-gw04-prd,,443,6,,,,potentially_blocked
+10.0.1.66,swf-web04-prd,,,,10.0.1.69,swf-gw04-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.66,swf-web04-prd,,,,10.0.1.84,swf-gw03-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.66,swf-web04-prd,httpd,,root,10.0.1.84,swf-gw03-prd,,443,6,,,,potentially_blocked
+10.0.0.198,ecm-proc03-prd,java,,tomcat,10.0.0.201,ecm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.198,ecm-proc03-prd,,,,10.0.0.201,ecm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.198,ecm-proc03-prd,,,,10.0.0.204,ecm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.198,ecm-proc03-prd,java,,tomcat,10.0.0.204,ecm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.200,ecm-proc02-prd,java,,tomcat,10.0.0.204,ecm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.200,ecm-proc02-prd,,,,10.0.0.204,ecm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.202,ecm-proc01-prd,,,,10.0.0.201,ecm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.202,ecm-proc01-prd,java,,tomcat,10.0.0.201,ecm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.203,ecm-web06-prd,httpd,,root,10.0.0.200,ecm-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.203,ecm-web06-prd,,,,10.0.0.200,ecm-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.203,ecm-web06-prd,,,,10.0.0.202,ecm-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.203,ecm-web06-prd,httpd,,root,10.0.0.202,ecm-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.194,ecm-web05-prd,,,,10.0.0.198,ecm-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.194,ecm-web05-prd,httpd,,root,10.0.0.198,ecm-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.0.194,ecm-web05-prd,httpd,,root,10.0.0.202,ecm-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.194,ecm-web05-prd,,,,10.0.0.202,ecm-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.199,ecm-web04-prd,httpd,,root,10.0.0.198,ecm-proc03-prd,,8070,6,,,,potentially_blocked
+10.0.0.199,ecm-web04-prd,,,,10.0.0.198,ecm-proc03-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.199,ecm-web04-prd,httpd,,root,10.0.0.202,ecm-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.199,ecm-web04-prd,,,,10.0.0.202,ecm-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.196,ecm-web03-prd,,,,10.0.0.200,ecm-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.196,ecm-web03-prd,httpd,,root,10.0.0.200,ecm-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.197,ecm-web02-prd,,,,10.0.0.200,ecm-proc02-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.197,ecm-web02-prd,httpd,,root,10.0.0.200,ecm-proc02-prd,,8070,6,,,,potentially_blocked
+10.0.0.195,ecm-web01-prd,httpd,,root,10.0.0.202,ecm-proc01-prd,,8070,6,,,,potentially_blocked
+10.0.0.195,ecm-web01-prd,,,,10.0.0.202,ecm-proc01-prd,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.133,pos-db05-stg,postgres,,postgres,10.0.2.8,pos-db03-stg,,5432,6,,,,potentially_blocked
+10.0.2.133,pos-db05-stg,,,,10.0.2.8,pos-db03-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.133,pos-db05-stg,postgres,,postgres,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.2.133,pos-db05-stg,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.133,pos-db05-stg,postgres,,postgres,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.2.133,pos-db05-stg,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.132,pos-db04-stg,postgres,,postgres,10.0.2.2,pos-db02-stg,,5432,6,,,,potentially_blocked
+10.0.2.132,pos-db04-stg,,,,10.0.2.2,pos-db02-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.132,pos-db04-stg,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.132,pos-db04-stg,postgres,,postgres,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.2.132,pos-db04-stg,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.132,pos-db04-stg,postgres,,postgres,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.2.134,pos-proc01-stg,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.134,pos-proc01-stg,java,,tomcat,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.2.134,pos-proc01-stg,java,,tomcat,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.2.134,pos-proc01-stg,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.134,pos-proc01-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.134,pos-proc01-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.134,pos-proc01-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.134,pos-proc01-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.131,pos-proc04-stg,java,,tomcat,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.2.131,pos-proc04-stg,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.131,pos-proc04-stg,java,,tomcat,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.2.131,pos-proc04-stg,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.131,pos-proc04-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.131,pos-proc04-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.131,pos-proc04-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.131,pos-proc04-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,80,6,httpd,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,httpd,,root,10.0.2.132,pos-db04-stg,,80,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.136,pos-proc03-stg,java,,tomcat,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.136,pos-proc03-stg,java,,tomcat,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,3389,6,,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,root,10.0.2.132,pos-db04-stg,,21,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,21,6,,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.135,pos-web03-stg,,,,10.0.2.134,pos-proc01-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.135,pos-web03-stg,httpd,,root,10.0.2.134,pos-proc01-stg,,8070,6,,,,potentially_blocked
+10.0.2.135,pos-web03-stg,httpd,,root,10.0.2.131,pos-proc04-stg,,8070,6,,,,potentially_blocked
+10.0.2.135,pos-web03-stg,,,,10.0.2.131,pos-proc04-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.135,pos-web03-stg,,,,10.0.2.136,pos-proc03-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.135,pos-web03-stg,httpd,,root,10.0.2.136,pos-proc03-stg,,8070,6,,,,potentially_blocked
+10.0.2.135,pos-web03-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.135,pos-web03-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.135,pos-web03-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.135,pos-web03-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.130,pos-web02-stg,httpd,,root,10.0.2.134,pos-proc01-stg,,8070,6,,,,potentially_blocked
+10.0.2.130,pos-web02-stg,,,,10.0.2.134,pos-proc01-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.130,pos-web02-stg,httpd,,root,10.0.2.131,pos-proc04-stg,,8070,6,,,,potentially_blocked
+10.0.2.130,pos-web02-stg,,,,10.0.2.131,pos-proc04-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.130,pos-web02-stg,httpd,,root,10.0.2.136,pos-proc03-stg,,8070,6,,,,potentially_blocked
+10.0.2.130,pos-web02-stg,,,,10.0.2.136,pos-proc03-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.130,pos-web02-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.130,pos-web02-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.130,pos-web02-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.130,pos-web02-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.72,pos-db06-stg,,,,10.0.2.8,pos-db03-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.72,pos-db06-stg,postgres,,postgres,10.0.2.8,pos-db03-stg,,5432,6,,,,potentially_blocked
+10.0.2.72,pos-db06-stg,,,,10.0.2.133,pos-db05-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.72,pos-db06-stg,postgres,,postgres,10.0.2.133,pos-db05-stg,,5432,6,,,,potentially_blocked
+10.0.2.72,pos-db06-stg,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.72,pos-db06-stg,postgres,,postgres,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.2.66,pos-db01-stg,postgres,,postgres,10.0.2.2,pos-db02-stg,,5432,6,,,,potentially_blocked
+10.0.2.66,pos-db01-stg,,,,10.0.2.2,pos-db02-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.66,pos-db01-stg,postgres,,postgres,10.0.2.132,pos-db04-stg,,5432,6,,,,potentially_blocked
+10.0.2.66,pos-db01-stg,,,,10.0.2.132,pos-db04-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.66,pos-db01-stg,postgres,,postgres,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.2.66,pos-db01-stg,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.69,pos-proc02-stg,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.69,pos-proc02-stg,java,,tomcat,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.2.69,pos-proc02-stg,java,,tomcat,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.2.69,pos-proc02-stg,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.69,pos-proc02-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.69,pos-proc02-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.69,pos-proc02-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.69,pos-proc02-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.67,pos-proc08-stg,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.67,pos-proc08-stg,java,,tomcat,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.2.67,pos-proc08-stg,java,,tomcat,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.2.67,pos-proc08-stg,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.67,pos-proc08-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.67,pos-proc08-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.67,pos-proc08-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.67,pos-proc08-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.68,pos-proc09-stg,,,,10.0.2.72,pos-db06-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.68,pos-proc09-stg,java,,tomcat,10.0.2.72,pos-db06-stg,,5432,6,,,,potentially_blocked
+10.0.2.68,pos-proc09-stg,,,,10.0.2.66,pos-db01-stg,,5432,6,postgres,,postgres,potentially_blocked
+10.0.2.68,pos-proc09-stg,java,,tomcat,10.0.2.66,pos-db01-stg,,5432,6,,,,potentially_blocked
+10.0.2.68,pos-proc09-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.68,pos-proc09-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.68,pos-proc09-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.68,pos-proc09-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.71,pos-web06-stg,,,,10.0.2.69,pos-proc02-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.71,pos-web06-stg,httpd,,root,10.0.2.69,pos-proc02-stg,,8070,6,,,,potentially_blocked
+10.0.2.71,pos-web06-stg,httpd,,root,10.0.2.67,pos-proc08-stg,,8070,6,,,,potentially_blocked
+10.0.2.71,pos-web06-stg,,,,10.0.2.67,pos-proc08-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.71,pos-web06-stg,httpd,,root,10.0.2.68,pos-proc09-stg,,8070,6,,,,potentially_blocked
+10.0.2.71,pos-web06-stg,,,,10.0.2.68,pos-proc09-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.71,pos-web06-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.71,pos-web06-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.71,pos-web06-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.2.71,pos-web06-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.70,pos-web01-stg,,,,10.0.2.69,pos-proc02-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.70,pos-web01-stg,httpd,,root,10.0.2.69,pos-proc02-stg,,8070,6,,,,potentially_blocked
+10.0.2.70,pos-web01-stg,httpd,,root,10.0.2.67,pos-proc08-stg,,8070,6,,,,potentially_blocked
+10.0.2.70,pos-web01-stg,,,,10.0.2.67,pos-proc08-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.70,pos-web01-stg,,,,10.0.2.68,pos-proc09-stg,,8070,6,java,,tomcat,potentially_blocked
+10.0.2.70,pos-web01-stg,httpd,,root,10.0.2.68,pos-proc09-stg,,8070,6,,,,potentially_blocked
+10.0.2.70,pos-web01-stg,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.2.70,pos-web01-stg,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.2.70,pos-web01-stg,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.2.70,pos-web01-stg,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.78,pos-db01-pci,,,,10.0.0.76,pos-db03-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.78,pos-db01-pci,postgres,,postgres,10.0.0.76,pos-db03-pci,,5432,6,,,,potentially_blocked
+10.0.0.78,pos-db01-pci,mysqld,,mysql,10.0.0.67,pos-db04-pci,,3306,6,,,,potentially_blocked
+10.0.0.78,pos-db01-pci,,,,10.0.0.67,pos-db04-pci,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.76,pos-db03-pci,,,,10.0.0.78,pos-db01-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.76,pos-db03-pci,postgres,,postgres,10.0.0.78,pos-db01-pci,,5432,6,,,,potentially_blocked
+10.0.0.76,pos-db03-pci,,,,10.0.0.71,pos-db02-pci,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.76,pos-db03-pci,mysqld,,mysql,10.0.0.71,pos-db02-pci,,3306,6,,,,potentially_blocked
+10.0.0.74,pos-proc05-pci,,,,10.0.0.78,pos-db01-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.74,pos-proc05-pci,java,,tomcat,10.0.0.78,pos-db01-pci,,5432,6,,,,potentially_blocked
+10.0.0.74,pos-proc05-pci,,,,10.0.0.76,pos-db03-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.74,pos-proc05-pci,java,,tomcat,10.0.0.76,pos-db03-pci,,5432,6,,,,potentially_blocked
+10.0.0.74,pos-proc05-pci,syslog,,root,10.0.1.143,inf-syslog02-prd,,514,6,,,,potentially_blocked
+10.0.0.74,pos-proc05-pci,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.74,pos-proc05-pci,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.74,pos-proc05-pci,chrony,,root,10.0.1.137,inf-time02-prd,,123,6,,,,potentially_blocked
+10.0.0.77,pos-proc04-pci,,,,10.0.0.78,pos-db01-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.77,pos-proc04-pci,java,,tomcat,10.0.0.78,pos-db01-pci,,5432,6,,,,potentially_blocked
+10.0.0.77,pos-proc04-pci,,,,10.0.0.76,pos-db03-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.77,pos-proc04-pci,java,,tomcat,10.0.0.76,pos-db03-pci,,5432,6,,,,potentially_blocked
+10.0.0.77,pos-proc04-pci,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.77,pos-proc04-pci,syslog,,root,10.0.1.143,inf-syslog02-prd,,514,6,,,,potentially_blocked
+10.0.0.77,pos-proc04-pci,chrony,,root,10.0.1.137,inf-time02-prd,,123,6,,,,potentially_blocked
+10.0.0.77,pos-proc04-pci,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.75,pos-proc01-pci,java,,tomcat,10.0.0.78,pos-db01-pci,,5432,6,,,,potentially_blocked
+10.0.0.75,pos-proc01-pci,,,,10.0.0.78,pos-db01-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.75,pos-proc01-pci,,,,10.0.0.76,pos-db03-pci,,5432,6,postgres,,postgres,potentially_blocked
+10.0.0.75,pos-proc01-pci,java,,tomcat,10.0.0.76,pos-db03-pci,,5432,6,,,,potentially_blocked
+10.0.0.75,pos-proc01-pci,syslog,,root,10.0.1.143,inf-syslog02-prd,,514,6,,,,potentially_blocked
+10.0.0.75,pos-proc01-pci,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.75,pos-proc01-pci,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.75,pos-proc01-pci,chrony,,root,10.0.1.137,inf-time02-prd,,123,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,httpd,,root,10.0.0.73,pos-web04-pci,,8080,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,,,,10.0.0.73,pos-web04-pci,,8080,6,app_server,,root,potentially_blocked
+10.0.0.79,pos-web01-pci,httpd,,root,10.0.0.74,pos-proc05-pci,,8070,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,,,,10.0.0.74,pos-proc05-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.79,pos-web01-pci,httpd,,root,10.0.0.77,pos-proc04-pci,,8070,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,,,,10.0.0.77,pos-proc04-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.79,pos-web01-pci,,,,10.0.0.75,pos-proc01-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.79,pos-web01-pci,httpd,,root,10.0.0.75,pos-proc01-pci,,8070,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,syslog,,root,10.0.1.143,inf-syslog02-prd,,514,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.79,pos-web01-pci,chrony,,root,10.0.1.137,inf-time02-prd,,123,6,,,,potentially_blocked
+10.0.0.79,pos-web01-pci,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.0.73,pos-web04-pci,,,,10.0.0.74,pos-proc05-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.73,pos-web04-pci,httpd,,root,10.0.0.74,pos-proc05-pci,,8070,6,,,,potentially_blocked
+10.0.0.73,pos-web04-pci,httpd,,root,10.0.0.77,pos-proc04-pci,,8070,6,,,,potentially_blocked
+10.0.0.73,pos-web04-pci,,,,10.0.0.77,pos-proc04-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.73,pos-web04-pci,,,,10.0.0.75,pos-proc01-pci,,8070,6,java,,tomcat,potentially_blocked
+10.0.0.73,pos-web04-pci,httpd,,root,10.0.0.75,pos-proc01-pci,,8070,6,,,,potentially_blocked
+10.0.0.73,pos-web04-pci,syslog,,root,10.0.1.143,inf-syslog02-prd,,514,6,,,,potentially_blocked
+10.0.0.73,pos-web04-pci,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.0.73,pos-web04-pci,chrony,,root,10.0.1.137,inf-time02-prd,,123,6,,,,potentially_blocked
+10.0.0.73,pos-web04-pci,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.0.1.135,swf-web03-prd,,,,10.0.1.142,swf-gw02-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.135,swf-web03-prd,httpd,,root,10.0.1.142,swf-gw02-prd,,443,6,,,,potentially_blocked
+10.0.1.135,swf-web03-prd,httpd,,root,10.0.1.138,swf-gw01-prd,,443,6,,,,potentially_blocked
+10.0.1.135,swf-web03-prd,,,,10.0.1.138,swf-gw01-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.13,hrm-db01-prd,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.0.1.13,hrm-db01-prd,syslog,,root,10.0.1.3,inf-syslog01-prd,,514,6,,,,potentially_blocked
+10.0.1.13,hrm-db01-prd,chrony,,root,10.0.1.5,inf-time01-prd,,123,6,,,,potentially_blocked
+10.0.1.13,hrm-db01-prd,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.1.1.9,,,,,10.0.0.134,shc-web01-prd,,443,6,httpd,,root,potentially_blocked
+10.1.1.5,,,,,10.0.0.196,ecm-web03-prd,,443,6,httpd,,root,potentially_blocked
+10.1.1.4,,,,,10.0.0.199,ecm-web04-prd,,443,6,httpd,,root,potentially_blocked
+10.1.1.3,,,,,10.0.0.197,ecm-web02-prd,,443,6,httpd,,root,potentially_blocked
+10.1.1.2,,,,,10.0.0.195,ecm-web01-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.1.20,ast-db01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\bwaytt,10.0.1.10,ast-db02-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\thaverford,10.0.1.24,ast-proc01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.1.35,ast-proc02-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\lknope,10.0.1.36,ast-web01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\cdwyer,10.0.1.8,ast-web02-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.1.25,ast-web03-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\bwaytt,10.0.1.20,ast-db01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\thaverford,10.0.1.10,ast-db02-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\rswanson,10.0.1.24,ast-proc01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\lknope,10.0.1.35,ast-proc02-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\cdwyer,10.0.1.36,ast-web01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\rswanson,10.0.1.8,ast-web02-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\bwaytt,10.0.1.25,ast-web03-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\thaverford,10.0.2.66,pos-db01-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.2,pos-db02-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\lknope,10.0.2.8,pos-db03-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\cdwyer,10.0.2.132,pos-db04-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.133,pos-db05-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\bwaytt,10.0.2.72,pos-db06-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\thaverford,10.0.2.134,pos-proc01-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\rswanson,10.0.2.69,pos-proc02-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\lknope,10.0.2.136,pos-proc03-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\cdwyer,10.0.2.131,pos-proc04-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\rswanson,10.0.2.5,pos-proc05-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\bwaytt,10.0.2.3,pos-proc06-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\thaverford,10.0.2.4,pos-proc07-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\rswanson,10.0.2.67,pos-proc08-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\lknope,10.0.2.68,pos-proc09-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\cdwyer,10.0.2.70,pos-web01-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.130,pos-web02-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\bwaytt,10.0.2.135,pos-web03-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\thaverford,10.0.2.6,pos-web04-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.7,pos-web05-stg,,22,6,sshd,,root,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\lknope,10.0.2.71,pos-web06-stg,,22,6,sshd,,root,potentially_blocked
+10.40.100.2,ctr01,,,,10.0.1.36,ast-web01-prd,,80,6,httpd,,root,potentially_blocked
+10.40.100.3,ctr02,,,,10.0.1.8,ast-web02-prd,,80,6,httpd,,root,potentially_blocked
+10.40.100.4,ctr03,,,,10.0.1.25,ast-web03-prd,,80,6,httpd,,root,potentially_blocked
+10.40.100.5,ctr04,,,,10.0.1.25,ast-web03-prd,,80,6,httpd,,root,potentially_blocked
+10.40.100.6,ctr05,,,,10.0.1.25,ast-web03-prd,,80,6,httpd,,root,potentially_blocked
+10.40.100.6,ctr05,,,,10.0.1.20,ast-db01-prd,,22,6,sshd,,root,potentially_blocked
+10.0.1.140,exc-mail02-prd,attachmentarchiver.exe,,,10.30.100.5,exc-netapp01-prd,,3306,6,,,,potentially_blocked
+10.0.1.140,exc-mail02-prd,attachmentarchiver.exe,,,10.30.100.6,exc-netapp02-prd,,3306,6,,,,potentially_blocked
+10.0.1.134,exc-mail01-prd,attachmentarchiver.exe,,,10.30.100.5,exc-netapp01-prd,,3306,6,,,,potentially_blocked
+10.0.1.134,exc-mail01-prd,attachmentarchiver.exe,,,10.30.100.6,exc-netapp02-prd,,3306,6,,,,potentially_blocked
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.136,exc-et02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.136,exc-et02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.136,exc-et02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.136,exc-et02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.136,exc-et02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.136,exc-et02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.140,exc-mail02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.140,exc-mail02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.140,exc-mail02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.140,exc-mail02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.140,exc-mail02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.140,exc-mail02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.139,exc-et01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.139,exc-et01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.139,exc-et01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.139,exc-et01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.139,exc-et01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.139,exc-et01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.134,exc-mail01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.134,exc-mail01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.134,exc-mail01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.134,exc-mail01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.134,exc-mail01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.134,exc-mail01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.2,inf-jh01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.2,inf-jh01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.2,inf-jh01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.2,inf-jh01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.2,inf-jh01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.2,inf-jh01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+10.0.1.7,inf-jh02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+10.0.1.7,inf-jh02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.7,inf-jh02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.7,inf-jh02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.7,inf-jh02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.7,inf-jh02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\rswanson,10.0.1.22,acd-dc01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\bwaytt,10.0.1.130,acd-dc03-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\thaverford,10.0.1.133,acd-dc04-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\rswanson,10.0.1.134,exc-mail01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\lknope,10.0.1.32,acd-dc02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\cdwyer,10.0.1.139,exc-et01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\rswanson,10.0.1.136,exc-et02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\bwaytt,10.0.1.140,exc-mail02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\rswanson,10.0.1.22,acd-dc01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\bwaytt,10.0.1.130,acd-dc03-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\thaverford,10.0.1.133,acd-dc04-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\rswanson,10.0.1.134,exc-mail01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\lknope,10.0.1.32,acd-dc02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\cdwyer,10.0.1.139,exc-et01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\rswanson,10.0.1.136,exc-et02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\bwaytt,10.0.1.140,exc-mail02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\rswanson,10.0.1.22,acd-dc01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\bwaytt,10.0.1.130,acd-dc03-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\thaverford,10.0.1.133,acd-dc04-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\rswanson,10.0.1.134,exc-mail01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\lknope,10.0.1.32,acd-dc02-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\cdwyer,10.0.1.139,exc-et01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\rswanson,10.0.1.136,exc-et02-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,mstsc.exe,,illumio\bwaytt,10.0.1.140,exc-mail02-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\rswanson,10.0.1.22,acd-dc01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\bwaytt,10.0.1.130,acd-dc03-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\thaverford,10.0.1.133,acd-dc04-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\rswanson,10.0.1.134,exc-mail01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\lknope,10.0.1.32,acd-dc02-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\cdwyer,10.0.1.139,exc-et01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\rswanson,10.0.1.136,exc-et02-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.7,inf-jh02-prd,mstsc.exe,,illumio\bwaytt,10.0.1.140,exc-mail02-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+10.0.1.130,acd-dc03-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.130,acd-dc03-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.130,acd-dc03-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.130,acd-dc03-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.130,acd-dc03-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.133,acd-dc04-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.133,acd-dc04-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.133,acd-dc04-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.133,acd-dc04-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.133,acd-dc04-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.32,acd-dc02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.32,acd-dc02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.32,acd-dc02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.32,acd-dc02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.32,acd-dc02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.22,acd-dc01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.22,acd-dc01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.22,acd-dc01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.22,acd-dc01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.22,acd-dc01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.32,acd-dc02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.32,acd-dc02-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+10.0.1.32,acd-dc02-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.32,acd-dc02-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.32,acd-dc02-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.22,acd-dc01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+10.0.1.22,acd-dc01-prd,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+10.0.1.22,acd-dc01-prd,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+10.0.1.22,acd-dc01-prd,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+10.0.1.22,acd-dc01-prd,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+10.0.1.205,pay-proc02-prd,java,,tomcat,10.0.1.195,ord-db05-prd,,3306,6,mysqld,,mysql,blocked
+10.0.0.6,ord-proc02-dev,java,,tomcat,10.0.1.10,ast-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.6,ord-proc02-dev,java,,tomcat,10.0.1.10,ast-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.4,ord-proc01-dev,java,,tomcat,10.0.1.20,ast-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.4,ord-proc01-dev,java,,tomcat,10.0.1.20,ast-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.143,shc-db02-prd,,,,10.0.0.131,shc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.143,shc-db02-prd,mysqld,,mysql,10.0.0.131,shc-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.131,shc-db01-prd,,,,10.0.0.143,shc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.131,shc-db01-prd,mysqld,,mysql,10.0.0.143,shc-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.204,ecm-db01-prd,mysqld,,mysql,10.0.0.201,ecm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.204,ecm-db01-prd,,,,10.0.0.201,ecm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.201,ecm-db02-prd,,,,10.0.0.204,ecm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.201,ecm-db02-prd,mysqld,,mysql,10.0.0.204,ecm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.201,ecm-db02-prd,,,,10.0.0.131,shc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.201,ecm-db02-prd,mysqld,,mysql,10.0.0.131,shc-db01-prd,,3306,6,,,,potentially_blocked
+10.0.0.204,ecm-db01-prd,,,,10.0.0.143,shc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.204,ecm-db01-prd,mysqld,,mysql,10.0.0.143,shc-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.131,shc-db01-prd,mysqld,,mysql,10.0.0.201,ecm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.0.131,shc-db01-prd,,,,10.0.0.201,ecm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.143,shc-db02-prd,,,,10.0.0.204,ecm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.0.143,shc-db02-prd,mysqld,,mysql,10.0.0.204,ecm-db01-prd,,3306,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.6.6.6,hpux,,5666,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.7.7.7,win2000,,5666,6,,,,potentially_blocked
+10.0.1.132,inf-nagios02-prd,nrpe,,root,10.8.8.8,win2003,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.6.6.6,hpux,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.7.7.7,win2000,,5666,6,,,,potentially_blocked
+10.0.1.34,inf-nagios01-prd,nrpe,,root,10.8.8.8,win2003,,5666,6,,,,potentially_blocked
+10.6.6.6,hpux,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.7.7.7,win2000,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.8.8.8,win2003,,,,10.0.1.143,inf-syslog02-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.6.6.6,hpux,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.7.7.7,win2000,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.8.8.8,win2003,,,,10.0.1.3,inf-syslog01-prd,,514,6,rsyslogd,,root,potentially_blocked
+10.6.6.6,hpux,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.7.7.7,win2000,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.8.8.8,win2003,,,,10.0.1.137,inf-time02-prd,,123,6,ntpd,,root,potentially_blocked
+10.6.6.6,hpux,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.7.7.7,win2000,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+10.8.8.8,win2003,,,,10.0.1.5,inf-time01-prd,,123,6,ntpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.99,Win-endpoint-3,,3389,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.100,Win-endpoint-4,,3389,6,,,,potentially_blocked
+172.16.3.98,Win-endpoint-2,,,,172.16.3.103,Win-endpoint-7,,3389,6,,,,potentially_blocked
+172.16.3.98,Win-endpoint-2,,,,172.16.3.104,Win-endpoint-8,,3389,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.105,Win-endpoint-9,,3389,6,,,,potentially_blocked
+172.16.3.105,Win-endpoint-9,,,,172.16.3.106,Win-endpoint-10,,3389,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.100,Win-endpoint-4,,3389,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.103,Win-endpoint-7,,3389,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.108,Mac-endpoint-2,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.109,Mac-endpoint-3,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.109,Mac-endpoint-4,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.110,Mac-endpoint-5,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.111,Mac-endpoint-6,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.46,crmprodcaweb1,,443,6,,,,potentially_blocked
+172.16.3.108,Mac-endpoint-2,,,,172.16.3.46,crmprodcaweb1,,443,6,,,,potentially_blocked
+172.16.3.101,Win-endpoint-5,,,,172.16.3.104,Win-endpoint-8,,3389,6,,,,potentially_blocked
+172.16.3.101,Win-endpoint-5,,,,172.16.3.111,Mac-endpoint-6,,5900,6,,,,potentially_blocked
+172.16.3.102,Win-endpoint-6,,,,172.16.3.99,Win-endpoint-3,,3389,6,,,,potentially_blocked
+172.16.3.102,Win-endpoint-6,,,,172.16.3.109,Mac-endpoint-3,,5900,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.97,Win-endpoint-1,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.97,Win-endpoint-1,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+172.16.3.97,Win-endpoint-1,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+172.16.3.97,Win-endpoint-1,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.97,Win-endpoint-1,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.97,Win-endpoint-1,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.98,Win-endpoint-2,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.98,Win-endpoint-2,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.98,Win-endpoint-2,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+172.16.3.98,Win-endpoint-2,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+172.16.3.98,Win-endpoint-2,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.98,Win-endpoint-2,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.98,Win-endpoint-2,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.99,Win-endpoint-3,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.99,Win-endpoint-3,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.99,Win-endpoint-3,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.99,Win-endpoint-3,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+172.16.3.99,Win-endpoint-3,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.99,Win-endpoint-3,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.99,Win-endpoint-3,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.100,Win-endpoint-4,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.100,Win-endpoint-4,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.100,Win-endpoint-4,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.100,Win-endpoint-4,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+172.16.3.100,Win-endpoint-4,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.100,Win-endpoint-4,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.100,Win-endpoint-4,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.101,Win-endpoint-5,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.101,Win-endpoint-5,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.22,acd-dc01-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.101,Win-endpoint-5,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+172.16.3.101,Win-endpoint-5,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.101,Win-endpoint-5,System,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,445,6,System,SMB,System,allowed
+172.16.3.101,Win-endpoint-5,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.101,Win-endpoint-5,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.22,acd-dc01-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.101,Win-endpoint-5,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.22,acd-dc01-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.102,Win-endpoint-6,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.102,Win-endpoint-6,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.32,acd-dc02-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.102,Win-endpoint-6,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.102,Win-endpoint-6,System,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,445,6,System,SMB,System,allowed
+172.16.3.102,Win-endpoint-6,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.102,Win-endpoint-6,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.32,acd-dc02-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.102,Win-endpoint-6,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.32,acd-dc02-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.103,Win-endpoint-7,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.130,acd-dc03-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.103,Win-endpoint-7,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.103,Win-endpoint-7,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+172.16.3.103,Win-endpoint-7,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.103,Win-endpoint-7,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.103,Win-endpoint-7,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.104,Win-endpoint-8,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.104,Win-endpoint-8,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.104,Win-endpoint-8,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.104,Win-endpoint-8,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+172.16.3.104,Win-endpoint-8,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.104,Win-endpoint-8,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.104,Win-endpoint-8,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.105,Win-endpoint-9,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+172.16.3.105,Win-endpoint-9,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.105,Win-endpoint-9,System,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,445,6,System,SMB,System,allowed
+172.16.3.105,Win-endpoint-9,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.105,Win-endpoint-9,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.130,acd-dc03-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.105,Win-endpoint-9,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.106,Win-endpoint-10,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,88,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.106,Win-endpoint-10,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.106,Win-endpoint-10,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49677,6,lsass.exe,,SYSTEM,allowed
+172.16.3.106,Win-endpoint-10,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49674,6,lsass.exe,,SYSTEM,allowed
+172.16.3.106,Win-endpoint-10,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,49668,6,lsass.exe,Kdc,SYSTEM,allowed
+172.16.3.106,Win-endpoint-10,System,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,445,6,System,SMB,System,allowed
+172.16.3.106,Win-endpoint-10,taskhost.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,389,6,lsass.exe,LDAPServer,SYSTEM,allowed
+172.16.3.106,Win-endpoint-10,lsass.exe,,NT AUTHORITY\SYSTEM,10.0.1.133,acd-dc04-prd,,135,6,svchost.exe,RpcSs,NETWORK SERVICE,allowed
+172.16.3.106,Win-endpoint-10,svchost.exe,,NT AUTHORITY\LOCAL SERVICE,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.107,Mac-endpoint-1,,,,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.107,Mac-endpoint-1,,,,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.108,Mac-endpoint-2,,,,10.0.1.130,acd-dc03-prd,,53,6,lsass.exe,,SYSTEM,allowed
+172.16.3.108,Mac-endpoint-2,,,,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.109,Mac-endpoint-3,,,,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.109,Mac-endpoint-3,,,,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.108,Mac-endpoint-2,,,,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.108,Mac-endpoint-2,,,,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.110,Mac-endpoint-4,,,,10.0.1.130,acd-dc03-prd,,53,6,lsass.exe,,SYSTEM,allowed
+172.16.3.110,Mac-endpoint-4,,,,10.0.1.130,acd-dc03-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.111,Mac-endpoint-5,,,,10.0.1.133,acd-dc04-prd,,53,17,dns.exe,,NT AUTHORITY\SYSTEM,allowed
+172.16.3.111,Mac-endpoint-5,,,,10.0.1.133,acd-dc04-prd,,123,17,svchost.exe,W32Time,NT AUTHORITY\LOCAL SERVICE,allowed
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\cdwyer,10.0.2.70,pos-web01-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.98,Win-endpoint-2,chrome.exe,,illumio\rswanson,10.0.2.130,pos-web02-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.99,Win-endpoint-3,chrome.exe,,illumio\bwaytt,10.0.2.135,pos-web03-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.100,Win-endpoint-4,chrome.exe,,illumio\thaverford,10.0.2.6,pos-web04-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.107,Mac-endpoint-1,safari,,illumio\rswanson,10.0.2.7,pos-web05-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\cdwyer,10.0.2.70,pos-web01-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.104,Win-endpoint-8,chrome.exe,,illumio\rswanson,10.0.2.130,pos-web02-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.108,Mac-endpoint-2,safari,,illumio\bwaytt,10.0.2.135,pos-web03-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.110,Mac-endpoint-4,safari,,illumio\thaverford,10.0.2.6,pos-web04-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.111,Mac-endpoint-5,safari,,illumio\rswanson,10.0.2.7,pos-web05-stg,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\rswanson,10.0.0.196,ecm-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.100,Win-endpoint-4,chrome.exe,,illumio\cdwyer,10.0.0.199,ecm-web04-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\rswanson,10.0.0.197,ecm-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.104,Win-endpoint-8,chrome.exe,,illumio\bwaytt,10.0.0.195,ecm-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.100,Win-endpoint-4,chrome.exe,,illumio\rswanson,10.0.0.196,ecm-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.99,Win-endpoint-3,chrome.exe,,illumio\cdwyer,10.0.0.199,ecm-web04-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.98,Win-endpoint-2,chrome.exe,,illumio\rswanson,10.0.0.197,ecm-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\bwaytt,10.0.0.195,ecm-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\bwaytt,10.0.1.204,pay-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.101,Win-endpoint-5,chrome.exe,,illumio\thaverford,10.0.1.198,pay-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,chrome.exe,,illumio\rswanson,10.0.1.70,pay-web05-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\lknope,10.0.1.72,pay-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.104,Win-endpoint-8,chrome.exe,,illumio\cdwyer,10.0.1.86,pay-web04-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.107,Mac-endpoint-1,chrome.exe,,illumio\rswanson,10.0.1.204,pay-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.108,Mac-endpoint-2,safari,,illumio\bwaytt,10.0.1.198,pay-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.109,Mac-endpoint-3,safari,,illumio\thaverford,10.0.1.70,pay-web05-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.110,Mac-endpoint-4,safari,,illumio\rswanson,10.0.1.72,pay-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.111,Mac-endpoint-5,safari,,illumio\lknope,10.0.1.86,pay-web04-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\rswanson,10.0.1.131,swf-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.99,Win-endpoint-3,chrome.exe,,illumio\bwaytt,10.0.1.141,swf-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.100,Win-endpoint-4,chrome.exe,,illumio\rswanson,10.0.1.73,swf-web08-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\cdwyer,10.0.1.67,swf-web07-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.98,Win-endpoint-2,chrome.exe,,illumio\rswanson,10.0.1.76,swf-web06-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\bwaytt,10.0.1.78,swf-web05-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.104,Win-endpoint-8,chrome.exe,,illumio\bwaytt,10.0.1.66,swf-web04-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\thaverford,10.0.1.135,swf-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\lknope,10.0.1.25,ast-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.98,Win-endpoint-2,chrome.exe,,illumio\cdwyer,10.0.1.36,ast-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.99,Win-endpoint-3,chrome.exe,,illumio\rswanson,10.0.1.8,ast-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.100,Win-endpoint-4,chrome.exe,,illumio\cdwyer,10.0.1.25,ast-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\rswanson,10.0.1.36,ast-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.104,Win-endpoint-8,chrome.exe,,illumio\bwaytt,10.0.1.8,ast-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.103,Win-endpoint-7,chrome.exe,,illumio\lknope,,,,,,,,,
+172.16.3.104,Win-endpoint-8,chrome.exe,,illumio\cdwyer,10.0.1.25,ast-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.100,Win-endpoint-4,chrome.exe,,illumio\rswanson,10.0.1.36,ast-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.99,Win-endpoint-3,chrome.exe,,illumio\cdwyer,10.0.1.8,ast-web02-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.97,Win-endpoint-1,chrome.exe,,illumio\rswanson,10.0.1.25,ast-web03-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.99,Win-endpoint-3,chrome.exe,,illumio\bwaytt,10.0.1.36,ast-web01-prd,,443,6,httpd,,root,potentially_blocked
+172.16.3.98,Win-endpoint-2,chrome.exe,,illumio\cdwyer,10.0.1.8,ast-web02-prd,,443,6,httpd,,root,potentially_blocked
+10.0.1.73,swf-web08-prd,tftp,,root,10.0.1.69,swf-gw04-prd,,69,6,,,,potentially_blocked
+10.0.1.73,swf-web08-prd,,,,10.0.1.69,swf-gw04-prd,,69,6,tftpd,,root,potentially_blocked
+10.0.1.73,swf-web08-prd,tftp,,root,10.0.1.84,swf-gw03-prd,,69,6,,,,potentially_blocked
+10.0.1.73,swf-web08-prd,,,,10.0.1.84,swf-gw03-prd,,69,6,tftpd,,root,potentially_blocked
+10.0.1.67,swf-web07-prd,tftp,,root,10.0.1.69,swf-gw04-prd,,69,6,,,,potentially_blocked
+10.0.1.67,swf-web07-prd,,,,10.0.1.69,swf-gw04-prd,,69,6,tftpd,,root,potentially_blocked
+10.0.1.67,swf-web07-prd,tftp,,root,10.0.1.84,swf-gw03-prd,,69,6,,,,potentially_blocked
+10.0.1.67,swf-web07-prd,,,,10.0.1.84,swf-gw03-prd,,69,6,tftpd,,root,potentially_blocked
+10.0.1.73,swf-web08-prd,telnet,,root,10.0.1.69,swf-gw04-prd,,23,6,,,,potentially_blocked
+10.0.1.67,swf-web07-prd,telnet,,root,10.0.1.84,swf-gw03-prd,,23,6,,,,potentially_blocked
+10.0.1.67,swf-web07-prd,telnet,,root,10.0.1.69,swf-gw04-prd,,23,6,,,,potentially_blocked
+10.0.1.73,swf-web08-prd,telnet,,root,10.0.1.84,swf-gw03-prd,,23,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.99,Win-endpoint-3,,5985,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.100,Win-endpoint-4,,5985,6,,,,potentially_blocked
+172.16.3.98,Win-endpoint-2,,,,172.16.3.103,Win-endpoint-7,,5985,6,,,,potentially_blocked
+172.16.3.98,Win-endpoint-2,,,,172.16.3.104,Win-endpoint-8,,5985,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.105,Win-endpoint-9,,5985,6,,,,potentially_blocked
+172.16.3.105,Win-endpoint-2,,,,172.16.3.106,Win-endpoint-10,,5985,6,,,,potentially_blocked
+172.16.3.107,Win-endpoint-2,,,,172.16.3.102,Win-endpoint-6,,5985,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,root,10.0.2.132,pos-db04-stg,,20,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,20,6,,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,root,10.0.2.8,pos-db03-stg,,20,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.8,pos-db03-stg,,20,6,,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,root,10.0.2.72,pos-db06-stg,,20,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.72,pos-db06-stg,,20,6,,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,root,10.0.2.72,pos-db06-stg,,21,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.72,pos-db06-stg,,21,6,,,root,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,root,10.0.2.132,pos-db04-stg,,21,6,,,,potentially_blocked
+10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,21,6,,,root,potentially_blocked
+10.0.1.35,ast-proc02-prd,java,,,10.0.1.29,ord-db02-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.24,ast-proc01-prd,java,,,10.0.1.18,ord-db01-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.24,ast-proc01-prd,java,,,10.0.1.29,ord-db02-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.35,ast-proc02-prd,java,,,10.0.1.18,ord-db01-prd,,5432,6,postgres,,postgres,potentially_blocked
+10.0.1.30,prc-web02-prd,mysqld,,,10.0.1.11,hrm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.21,prc-web01-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.6,prc-web03-prd,mysqld,,,10.0.1.11,hrm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.6,prc-web03-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.21,prc-web01-prd,mysqld,,,10.0.1.11,hrm-db02-prd,,3306,6,,,,potentially_blocked
+10.0.1.30,prc-web02-prd,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+192.168.10.126,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.2.224,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.64.242.51,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.80.242.31,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.24.242.32,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.4.36.92,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.4.130,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.3.200,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.24.242.84,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.48.242.180,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.5.115,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.3.240.68,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.7.198,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.9.84,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.190.26.120,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.190.240.115,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+10.194.243.121,,,,,10.0.1.147,pacs-01,,104,6,,,,potentially_blocked
+192.168.10.126,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.2.224,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.64.242.51,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.80.242.31,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.24.242.32,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.4.36.92,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.4.130,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.3.200,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.24.242.84,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.48.242.180,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.5.115,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.3.240.68,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.7.198,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.9.84,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.190.26.120,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.190.240.115,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+10.194.243.121,,,,,10.0.1.148,pacs-02,,104,6,,,,potentially_blocked
+192.168.10.126,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+192.168.2.224,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+10.64.242.51,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+10.80.242.31,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+10.24.242.32,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+10.4.36.92,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+192.168.4.130,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+192.168.3.200,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+10.24.242.84,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+10.48.242.180,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+192.168.5.115,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+10.3.240.68,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+192.168.7.198,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+192.168.9.84,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+10.190.26.120,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+10.190.240.115,,,,,10.0.1.147,pacs-01,,2762,6,,,,potentially_blocked
+10.194.243.121,,,,,10.0.1.147,pacs-01,,2761,6,,,,potentially_blocked
+192.168.10.126,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+192.168.2.224,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+10.64.242.51,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+10.80.242.31,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+10.24.242.32,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+10.4.36.92,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+192.168.4.130,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+192.168.3.200,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+10.24.242.84,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+10.48.242.180,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+192.168.5.115,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+10.3.240.68,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+192.168.7.198,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+192.168.9.84,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+10.190.26.120,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+10.190.240.115,,,,,10.0.1.148,pacs-02,,2761,6,,,,potentially_blocked
+10.194.243.121,,,,,10.0.1.148,pacs-02,,2762,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.10.126,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.2.224,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.64.242.51,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.80.242.31,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.24.242.32,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.4.36.92,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.4.130,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.3.200,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.24.242.84,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.48.242.180,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.5.115,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.3.240.68,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.7.198,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.9.84,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.7.198,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,192.168.5.115,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.190.240.115,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.194.243.121,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.0.1.144,vna-01,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.0.1.145,vna-02,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,10.80.242.31,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,10.24.242.32,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,10.4.36.92,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,192.168.4.130,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,192.168.3.200,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,10.24.242.84,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,10.48.242.180,,,3389,6,,,,potentially_blocked
+10.0.1.2,inf-jh01-prd,,,,192.168.5.115,,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.0.1.147,pacs-01,,3389,6,,,,potentially_blocked
+10.0.1.146,img-jump-01,,,,10.0.1.148,pacs-02,,3389,6,,,,potentially_blocked
+10.0.1.147,pacs-01,,,,10.0.1.144,vna-01,,104,6,,,,potentially_blocked
+10.0.1.147,pacs-01,,,,10.0.1.145,vna-02,,104,6,,,,potentially_blocked
+10.0.1.148,pacs-02,,,,10.0.1.144,vna-01,,104,6,,,,potentially_blocked
+10.0.1.148,pacs-02,,,,10.0.1.145,vna-02,,104,6,,,,potentially_blocked
+172.16.3.97,win-endpoint-1,System,,NT AUTHORITY\SYSTEM,172.16.3.98,win-endpoint-2,,445,6,System,SMB,System,potentially_blocked
+172.16.3.97,win-endpoint-1,System,,NT AUTHORITY\SYSTEM,172.16.3.99,win-endpoint-3,,445,6,System,SMB,System,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.20,ast-db01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.10,ast-db02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.24,ast-proc01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.35,ast-proc02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.36,ast-web01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.8,ast-web02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.25,ast-web03-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.20,ast-db01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.10,ast-db02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.24,ast-proc01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.35,ast-proc02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.36,ast-web01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.8,ast-web02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.25,ast-web03-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.66,pos-db01-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.2,pos-db02-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.8,pos-db03-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.132,pos-db04-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.22,acd-dc01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.130,acd-dc03-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.133,acd-dc04-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.134,exc-mail01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.32,acd-dc02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.139,exc-et01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.136,exc-et02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.140,exc-mail02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.22,acd-dc01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.130,acd-dc03-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.133,acd-dc04-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.134,exc-mail01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.32,acd-dc02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.139,exc-et01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.136,exc-et02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.140,exc-mail02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.22,acd-dc01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+172.16.3.102,win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.130,acd-dc03-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.136,exc-et02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.140,exc-mail02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.22,acd-dc01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.130,acd-dc03-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
+192.168.5.5,mac-endpoint-1,Google Chrome,,,18.161.21.34,,espn.com,443,6,,,,potentially_blocked
+192.168.5.5,mac-endpoint-1,Google Chrome,,,142.251.41.14,,google.com,443,6,,,,potentially_blocked
+192.168.5.5,mac-endpoint-1,Google Chrome,,,23.33.253.151,,weather.com,443,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,10.0.1.2,inf-jh01-prd,,22,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,10.0.1.7,inf-jh02-prd,,22,6,,,,potentially_blocked
+172.16.3.101,Win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.2,inf-jh01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+172.16.3.102,Win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.7,inf-jh02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.66,pos-db01-stg,,22,6,sshd,,root,potentially_blocked

@@ -1,0 +1,175 @@
+hostname,interface,agent_version,os_id,os_detail,platform,ven_type
+pacs-01,eth0:10.0.1.147/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+pacs-02,eth0:10.0.1.148/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+img-jump-01,eth0:10.0.1.146/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+vna-01,eth0:10.0.1.144/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+vna-02,eth0:10.0.1.145/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+inf-jh01-prd,eth0:10.0.1.2/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+inf-jh02-prd,eth0:10.0.1.7/26,22.2.10-9017,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+swf-web08-prd,eth0:10.0.1.73/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.42.2.el7.x86_64 #1 SMP Tue Sep 7 14:49:57 UTC 2021 (CentOS Linux release 7.9.2009 (Core)),linux,server
+ord-web04-prd,eth0:10.0.1.201/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+shc-proc01-prd,eth0:10.0.0.130/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+shc-proc02-prd,eth0:10.0.0.139/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+shc-web01-prd,eth0:10.0.0.134/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+prc-db02-prd,eth0:10.0.1.26/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+acd-dc01-prd,eth0:10.0.1.22/26,22.2.10-9017,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+acd-dc03-prd,eth0:10.0.1.130/26,22.2.10-9017,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+ecm-proc03-prd,eth0:10.0.0.198/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web05-prd,eth0:10.0.1.83/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc03-prd,eth0:10.0.1.80/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web02-dev,eth0:10.0.0.2/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+shc-db01-prd,eth0:10.0.0.131/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-gw03-prd,eth0:10.0.1.84/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-proc01-prd,eth0:10.0.1.79/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+shc-web02-prd,eth0:10.0.0.140/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+cat-proc02-prd,eth0:10.0.0.132/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web01-prd,eth0:10.0.1.9/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-web01-prd,eth0:10.0.1.204/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-db01-prd,eth0:10.0.1.81/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+inf-syslog01-prd,eth0:10.0.1.3/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-web01-prd,eth0:10.0.0.195/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc01-prd,eth0:10.0.1.27/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc01-stg,eth0:10.0.2.134/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web01-stg,eth0:10.0.2.70/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-web02-prd,eth0:10.0.1.8/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-db02-prd,eth0:10.0.1.10/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-lb01-prd,eth0:10.0.1.28/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc02-stg,eth0:10.0.2.69/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web02-stg,eth0:10.0.2.130/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-web03-prd,eth0:10.0.0.196/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+pay-db02-prd,eth0:10.0.1.85/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+ecm-web04-prd,eth0:10.0.0.199/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+cat-proc01-prd,eth0:10.0.0.138/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+ord-proc04-prd,eth0:10.0.1.71/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+ord-web06-prd,eth0:10.0.1.75/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-web02-prd,eth0:10.0.1.198/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+prc-web01-prd,eth0:10.0.1.21/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-web05-prd,eth0:10.0.0.194/26,22.2.10-9017,ubuntu-x86_64-xenial,5.4.0-1045-aws #47-Ubuntu SMP Tue Apr 13 07:02:25 UTC 2021 (Ubuntu 20.04.2 LTS),linux,server
+cat-db02-prd,eth0:10.0.0.135/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-web06-prd,eth0:10.0.0.203/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-proc02-prd,eth0:10.0.0.200/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-web04-prd,eth0:10.0.1.66/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-web03-prd,eth0:10.0.1.72/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-db01-prd,eth0:10.0.0.204/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web02-prd,eth0:10.0.1.15/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-db02-prd,eth0:10.0.0.201/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-web02-prd,eth0:10.0.0.197/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+cat-web01-prd,eth0:10.0.0.136/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-web04-prd,eth0:10.0.1.86/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc04-pci,eth0:10.0.0.77/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-web07-prd,eth0:10.0.1.67/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-gw04-prd,eth0:10.0.1.69/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+cat-db01-prd,eth0:10.0.0.142/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc05-prd,eth0:10.0.1.77/26,22.2.10-9017,centos-x86_64-8.0,4.18.0-193.28.1.el8_2.x86_64 #1 SMP Thu Oct 22 00:20:22 UTC 2020 (CentOS Linux release 8.5.2111),linux,server
+ord-proc06-prd,eth0:10.0.1.202/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+prc-proc01-prd,eth0:10.0.1.4/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+prc-proc02-prd,eth0:10.0.1.12/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-proc02-prd,eth0:10.0.1.205/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+prc-db01-prd,eth0:10.0.1.17/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db03-prd,eth0:10.0.1.68/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+inf-nagios02-prd,eth0:10.0.1.132/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+acd-dc04-prd,eth0:10.0.1.133/26,22.2.10-9017,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+swf-web05-prd,eth0:10.0.1.78/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-proc03-prd,eth0:10.0.1.82/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc07-prd,eth0:10.0.1.194/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+shc-proc03-prd,eth0:10.0.0.133/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db01-pci,eth0:10.0.0.78/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+cat-proc03-prd,eth0:10.0.0.141/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-proc02-prd,eth0:10.0.1.35/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db04-prd,eth0:10.0.1.74/26,22.2.10-9017,ubuntu-x86_64-xenial,4.15.0-1113-azure #126~16.04.1-Ubuntu SMP Tue Apr 13 16:55:24 UTC 2021 (Ubuntu 16.04.7 LTS),linux,server
+shc-db02-prd,eth0:10.0.0.143/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db01-prd,eth0:10.0.1.18/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-web01-prd,eth0:10.0.1.36/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db05-prd,eth0:10.0.1.195/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc01-pci,eth0:10.0.0.75/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db06-prd,eth0:10.0.1.199/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ecm-proc01-prd,eth0:10.0.0.202/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-proc04-prd,eth0:10.0.1.207/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web07-prd,eth0:10.0.1.197/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-db03-prd,eth0:10.0.1.206/26,22.2.10-9017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-db04-prd,eth0:10.0.1.200/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+inf-syslog02-prd,eth0:10.0.1.143/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-web05-prd,eth0:10.0.1.70/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db01-stg,eth0:10.0.2.66/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+inf-time02-prd,eth0:10.0.1.137/26,21.5.30-8527,centos-x86_64-8.0,4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Mar 25 14:36:04 EDT 2021 (Red Hat Enterprise Linux release 8.3 (Ootpa)),linux,server
+pos-web03-stg,eth0:10.0.2.135/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc03-stg,eth0:10.0.2.136/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+exc-mail01-prd,eth0:10.0.1.134/26,21.5.30-8527,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+ord-db02-prd,eth0:10.0.1.29/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pay-proc05-prd,eth0:10.0.1.203/26,21.5.30-8527,centos-x86_64-8.0,4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Mar 25 14:36:04 EDT 2021 (Red Hat Enterprise Linux release 8.3 (Ootpa)),linux,server
+pos-web01-pci,eth0:10.0.0.79/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+prc-web03-prd,eth0:10.0.1.6/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+prc-web02-prd,eth0:10.0.1.30/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-lb02-prd,eth0:10.0.1.19/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+cat-web02-prd,eth0:10.0.0.137/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc08-prd,eth0:10.0.1.196/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-web06-prd,eth0:10.0.1.76/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+acd-dc02-prd,eth0:10.0.1.32/26,21.5.30-8527,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+exc-et01-prd,eth0:10.0.1.139/26,21.5.30-8527,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+pos-proc04-stg,eth0:10.0.2.131/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+hrm-db01-prd,eth0:10.0.1.13/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc05-stg,eth0:10.0.2.5/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web03-prd,eth0:10.0.1.31/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-web02-prd,eth0:10.0.1.131/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db02-stg,eth0:10.0.2.2/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+hrm-web02-prd,eth0:10.0.1.14/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db02-pci,eth0:10.0.0.71/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db03-stg,eth0:10.0.2.8/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-web03-prd,eth0:10.0.1.135/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db04-pci,eth0:10.0.0.67/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web04-stg,eth0:10.0.2.6/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc02-pci,eth0:10.0.0.72/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc06-stg,eth0:10.0.2.3/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc03-pci,eth0:10.0.0.66/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc06-pci,eth0:10.0.0.68/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-web01-prd,eth0:10.0.1.141/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc07-stg,eth0:10.0.2.4/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+hrm-db02-prd,eth0:10.0.1.11/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web05-stg,eth0:10.0.2.7/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web02-pci,eth0:10.0.0.69/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+swf-gw02-prd,eth0:10.0.1.142/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-lb02-dev,eth0:10.0.0.3/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web03-pci,eth0:10.0.0.70/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+hrm-web01-prd,eth0:10.0.1.16/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+hrm-web03-prd,eth0:10.0.1.23/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web04-pci,eth0:10.0.0.73/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc08-stg,eth0:10.0.2.67/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db02-dev,eth0:10.0.0.8/26,21.5.30-8527,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-proc01-prd,eth0:10.0.1.24/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc02-prd,eth0:10.0.1.33/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+inf-time01-prd,eth0:10.0.1.5/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db04-stg,eth0:10.0.2.132/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc02-dev,eth0:10.0.0.6/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web03-dev,eth0:10.0.0.7/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+inf-nagios01-prd,eth0:10.0.1.34/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db05-stg,eth0:10.0.2.133/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-web06-stg,eth0:10.0.2.71/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc09-stg,eth0:10.0.2.68/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db06-stg,eth0:10.0.2.72/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-proc01-dev,eth0:10.0.0.4/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-db03-pci,eth0:10.0.0.76/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-db01-prd,eth0:10.0.1.20/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ast-web03-prd,eth0:10.0.1.25/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-web01-dev,eth0:10.0.0.9/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+exc-et02-prd,eth0:10.0.1.136/26,21.2.5-8017,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+exc-mail02-prd,eth0:10.0.1.140/26,21.2.5-8017,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+swf-gw01-prd,eth0:10.0.1.138/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-db01-dev,eth0:10.0.0.10/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+pos-proc05-pci,eth0:10.0.0.74/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+ord-lb01-dev,eth0:10.0.0.5/26,21.2.5-8017,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+win-endpoint-1,eth32769:172.16.3.97/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-2,eth32769:172.16.3.98/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-3,eth32769:172.16.3.99/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-4,eth32769:172.16.3.100/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-5,eth32769:172.16.3.101/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-6,eth32769:172.16.3.102/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-7,eth32769:172.16.3.103/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-8,eth32769:172.16.3.104/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-9,eth32769:192.168.7.8/24-E;utun3:172.16.3.105/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+win-endpoint-10,eth32769:192.168.14.5/24-E;utun3:172.16.3.106/24,22.5.30-9870,win-x86_64-client,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+mac-endpoint-1,utun3:172.16.3.107/24;en1:192.168.5.5/24-E;awdl0:fe80::f860:89ff:fe52:17aa/64-E-N;en0:fe80::889:814e:4d2e:3ea3/64-E-N,23.2.0-129,macOS-universal-catalina,21.6.0 root:xnu-8020.141.5~2/RELEASE_ARM64_T6000 (macOS 12.5.1 Monterey),darwin,endpoint
+mac-endpoint-2,utun3:172.16.3.108/24;en1:192.168.5.6/24-E;awdl0:fe81::f860:89ff:fe52:17ab/64-E-N;en0:fe80::889:815e:4d2e:3ea4/64-E-N,23.2.0-129,macOS-universal-catalina,21.6.0 root:xnu-8020.141.5~2/RELEASE_ARM64_T6000 (macOS 12.5.1 Monterey),darwin,endpoint
+mac-endpoint-3,utun3:172.16.3.109/24;en1:192.168.5.7/24-E;awdl0:fe82::f860:89ff:fe52:17ac/64-E-N;en0:fe80::889:816e:4d2e:3ea5/64-E-N,23.2.0-129,macOS-universal-catalina,21.6.0 root:xnu-8020.141.5~2/RELEASE_ARM64_T6000 (macOS 12.5.1 Monterey),darwin,endpoint
+mac-endpoint-4,utun3:172.16.3.110/24;en1:192.168.5.8/24-E;awdl0:fe83::f860:89ff:fe52:17ad/64-E-N;en0:fe80::889:817e:4d2e:3ea6/64-E-N,23.2.0-129,macOS-universal-catalina,21.6.0 root:xnu-8020.141.5~2/RELEASE_ARM64_T6000 (macOS 12.5.1 Monterey),darwin,endpoint
+mac-endpoint-5,utun3:172.16.3.111/24;en1:192.168.5.9/24-E;awdl0:fe84::f860:89ff:fe52:17ae/64-E-N;en0:fe80::889:818e:4d2e:3ea7/64-E-N,23.2.0-129,macos-universal-catalina,21.6.0 root:xnu-8020.141.5~2/release_arm64_t6000 (macos 12.5.1 monterey),darwin,endpoint
+mac-endpoint-6,en0:172.16.3.112/24;en1:192.168.5.10/24-E;awdl0:fe84::f860:89ff:fe52:17af/64-E-N;en0:fe80::889:818e:4d2e:3ea8/64-E-N,23.2.0-129,macOS-universal-catalina,21.6.0 root:xnu-8020.141.5~2/release_arm64_t6000 (macos 12.5.1 monterey),darwin,endpoint

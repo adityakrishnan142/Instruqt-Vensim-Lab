@@ -1,0 +1,10 @@
+key,value
+app,kubernetes
+app,guestbook
+role,redis-master
+role,redis-slave
+role,frontend
+env,quarantine
+env,test
+app,yelb
+role,node

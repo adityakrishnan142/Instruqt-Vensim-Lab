@@ -1,0 +1,92 @@
+name,description,ransomware_category,ransomware_severity,ransomware_os_platform
+ldap,Lightweight Directory Access Protocol,,,
+rtsp,Real-Time Streaming Protocol,,,
+ircs,Secure Internet Relay Chat,,,
+tftp,Trivial File Transfer Protocol,,,
+dhcp-client,Dynamic Host Control Protocol/BOOTP Client,,,
+bgp,Border Gateway Protocol,,,
+nat-t,Network Address Translation - Traversal,,,
+vnc,Virtual Network Computing,admin,high,linux;windows
+syslog,System Logging,,,
+imaps,Secure IMAP,,,
+dns,Domain Name System,,,
+dntls,DNS over TLS,,,
+imap,Internet Message Access Protocol,,,
+nfs,Network File System,admin,medium,linux
+mysql,An open-source relational database management system (RDBMS),,,
+lpd-lpr,Line Printer Daemon-Line Printer Remote,,,
+ftp-control,File transfer protocol Control Port,legacy,medium,windows;linux
+mongodb,Mongo DB,,,
+llmnr,Link Local Multicast Name Resolution,legacy,medium,windows
+bind-rndc,BIND Remote Network Domain Control,,,
+snmp-trap,Simple Network Management Protocol Trap,,,
+rdp,Remote Desktop Protocol,admin,critical,windows
+msql-broker,"There is no default port for SQL Server Service Broker, but this is the conventional configuration used in Microsoft's online examples.",,,
+splunk-web,Splunk Web Access,,,
+irc,Internet Relay Chat,,,
+iscsi-alt,ISCSI Alternate port,,,
+ssh,Secure Shell,admin,medium,linux
+alt-https,Alternate HTTPS,,,
+metasploit,Default listener for metasploit,legacy,low,windows;linux
+popv3,Post Office Protocol v3,legacy,low,linux;windows
+mwsusecure,Secure Windows Server Update Service (WSUS) for patching,,,
+mglobal-catalog,Microsoft Global Catalog,,,
+dhcp-server,Dynamic Host Control Protocol/BOOTP Server,,,
+rpc,Resolves Remote Procedure Call (RPC) interfaces identifiers to transport endpoints.,admin,critical,windows;linux
+ftps,Secure FTP Server Data,,,
+http,Hyper Text Transfer Protocol,legacy,medium,windows;linux
+msql-browser,A set of ports that allows SQL communication between SQL hosts or client access. Use in conjunction with the MS FoC service to enable SQL fail-over cluster communication.,,,
+popv3s,Secure POPv3,,,
+kerberov5,Kerberos Version 5,,,
+oracle-sql,Default listener for metasploit,,,
+teamviewer,TeamViewer,admin,high,linux;windows
+winrm,Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management.,admin,critical,windows
+ssdp,Simple Service Discovery Protocol,legacy,medium,windows
+kerberoauth,Kerberos Authentication Protocol,,,
+splunk-data,Splunk Indexer inbound data port from forwarders,,,
+splunk-data-secure,Secure Splunk Indexer inbound data port from forwarders,,,
+telnet,Telnet,admin,medium,linux;windows
+rlogin,Remote Login,,,
+m.net-tcp-port-sharing,"Microsoft Net.TCP Port Sharing Service. This capability allows HTTP applications to coexist on the same physical machine in separate, isolated processes.",,,
+pxe,Preboot Execution Environment,,,
+mad-web-services,Active Directory Management Gateway Service,,,
+ftp-data,File transfer protocol Data,legacy,medium,windows;linux
+mwsus,Windows Server Update Service (WSUS) for patching.,,,
+isakmp-ike,Internet Security Association and Key Management Protocol,,,
+alt-http,Alternate HTTP,,,
+splunk-mgmt,Splunk Management/Rest API.,,,
+smb,Server Message Block (SMB).,admin,critical,windows;linux
+kerberocdc,Kerberos Certificate Distribution Center,,,
+winrm-secure,Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management.,admin,critical,windows
+sunrpc,Remote Procedure Call,legacy,low,linux
+ptp-general,Precision Time Protocol General,,,
+snmp-poll,Simple Network Management Protocol,,,
+mglobal-catalog-secure,Microsoft Global Catalog Secure,,,
+smtp-tls,Simple Mail Transfer Protocol over TLS,,,
+kerberov4,Kerberos Version 4,,,
+wsd,Web Services for Devices,legacy,medium,windows
+msql,A set of ports that allows SQL communication between SQL hosts or client access. Use in conjunction with the MS FoC service to enable SQL fail-over cluster communication.,,,
+postgresql,Open-source Object-Relational DBMS supporting almost all SQL constructs,,,
+mdns,Multicast DNS,legacy,medium,windows;linux
+mysql-cluster,An open-source relational database management system (RDBMS),,,
+smtp,Simple Mail Transfer Protocol,,,
+high-udp-ports,IANA and RFC 6335 UDP High Port Range 49152-65535 for dynamic ports.,,,
+kms,Default Port for MS Key Management Services,,,
+klogin,Kerberos Login,,,
+rip,Routing Information Protocol,,,
+mcluster,Microsoft Fail-over Clustering - cluster communication,,,
+All Services,,,,
+https,Secure HTTP,,,
+httpudp,Secure HTTP UDP for QUIC and HTTP/3,,,
+iscsi,ISCSI,,,
+ntp,Network Time Protocol,,,
+smtps,Secure SMTP,,,
+pptp,Point-to-Point Tunneling Protocol,legacy,low,linux;windows
+high-tcp-ports,IANA and RFC 6335 TCP High Port Range 49152-65535 for dynamic ports.,,,
+mongodb-cluster,MongoDB Clustering Ports,,,
+ldaps,Secure LDAP,,,
+sftp,Simple File Transfer Protocol,,,
+icmp,ICMP and ICMP v6,,,
+netbios,"NetBIOS protocol TCP, covers the Name, Datagram and Session Services.",legacy,high,windows
+ptp-events,Precision Time Protocol Events,,,
+msft-domain-controllers,Ports used by Domain Controllers,,,

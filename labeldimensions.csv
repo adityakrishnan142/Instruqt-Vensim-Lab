@@ -1,0 +1,7 @@
+key,display_name,foreground_color,background_color,initial,display_name_plural,icon
+role,Role,,,,,
+app,Application,,,,,
+env,Environment,,,,,
+loc,Location,,,,,
+bu,Business Unit,#000000,#ebbb0f,BU,Business Units,group
+type,Type,#ffffff,#6972f2,T,Types,servers

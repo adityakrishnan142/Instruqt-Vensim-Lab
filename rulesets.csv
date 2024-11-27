@@ -1,0 +1,5 @@
+ruleset_name,enabled,description,scope
+coreservices,TRUE,,
+activedirectory | prod,TRUE,,app:ad;env:prod
+ordering | prod,TRUE,,app:ordering;env:prod
+pos | pci,TRUE,,app:pos;env:pci
