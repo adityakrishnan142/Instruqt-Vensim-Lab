@@ -129,3 +129,46 @@ workloader ipl-import Instruqt-Vensim-Lab/iplists.csv --update-pce --no-prompt -
 vensim post-traffic -c Instruqt-Vensim-Lab/vens.csv -t Instruqt-Vensim-Lab/traffic.csv -d "2023-07-26"
 
 echo -e "\n### Script Execution Completed Successfully ###"
+
+# Crontab setup
+echo -e "\n### Setting up Crontab ###"
+
+if [[ $EUID -ne 0 ]]; then
+  echo "This script requires root privileges to set crontab for another user. Run with sudo if needed."
+  exit 1
+fi
+
+CRON_CONFIG=$(cat <<'EOF'
+# Make sure vensim is in path
+PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/centos/.local/bin:/home/centos/bin
+
+# Set variables
+TARGET_DIR=/root/Instruqt-Vensim-Lab
+PCE=poc3.illum.io:443
+WORKLOAD_FILE=vens.csv
+TRAFFIC_FILE=traffic.csv
+PROCESS_FILE=processes.csv
+
+# Update workload running processes once a day at 6 AM
+0 6 * * * cd $TARGET_DIR && vensim update-processes -c $WORKLOAD_FILE -p $PROCESS_FILE >/dev/null 2>&1
+
+# Post traffic every 10 minutes
+*/10 * * * * cd $TARGET_DIR && vensim post-traffic -c $WORKLOAD_FILE -t $TRAFFIC_FILE -d today >/dev/null 2>&1
+
+# Heartbeat every 5 minutes
+*/5 * * * * cd $TARGET_DIR && vensim heartbeat -c $WORKLOAD_FILE >/dev/null 2>&1
+
+# Mimic event service by getting policy every 15 seconds.
+* * * * * cd $TARGET_DIR && vensim get-policy -c $WORKLOAD_FILE >/dev/null 2>&1
+* * * * * sleep 15 && cd $TARGET_DIR && vensim get-policy -c $WORKLOAD_FILE >/dev/null 2>&1
+* * * * * sleep 30 && cd $TARGET_DIR && vensim get-policy -c $WORKLOAD_FILE >/dev/null 2>&1
+* * * * * sleep 45 && cd $TARGET_DIR && vensim get-policy -c $WORKLOAD_FILE >/dev/null 2>&1
+
+# Remove the vensim log every hour
+0 * * * * cd $TARGET_DIR && rm -f vensim.log
+EOF
+)
+
+echo "$CRON_CONFIG" | crontab -
+
+echo "Crontab applied successfully!"
