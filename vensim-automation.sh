@@ -49,7 +49,7 @@ done
 
 # Get API Secret and validate
 while true; do
-    read -sp "Enter API Secret (64 alphanumeric characters): " API_SECRET
+    read -p "Enter API Secret (64 alphanumeric characters): " API_SECRET
     echo
     if validate_api_secret "$API_SECRET"; then
         break
