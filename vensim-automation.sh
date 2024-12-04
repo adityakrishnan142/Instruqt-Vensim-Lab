@@ -60,64 +60,72 @@ done
 
 # Add PCE Configuration
 echo -e "\n### Adding Workloader PCE Configuration ###"
-./workloader pce-add -a --name default --fqdn poc3.illum.io --port 443 --api-user "$API_USER" --api-secret "$API_SECRET" --org "$ORG_ID" --disable-tls-verification true
+workloader pce-add -a --name default --fqdn poc3.illum.io --port 443 --api-user "$API_USER" --api-secret "$API_SECRET" --org "$ORG_ID" --disable-tls-verification true
 
-# Deletion Operations
+
 echo -e "\n### Starting Deletion Operations ###"
-./workloader ven-export --excl-containerized --headers wkld_href --output-file unpair_vens.csv && \
-./workloader unpair --href-file unpair_vens.csv --include-online --update-pce --no-prompt
 
-./workloader pairing-profile-export --output-file delete_pp.csv && \
-./workloader delete delete_pp.csv --header href --update-pce --no-prompt --provision
+#--- unpair vens-----
 
-./workloader ruleset-export --output-file delete_ruleset.csv && \
-./workloader delete delete_ruleset.csv --header href --update-pce --no-prompt --provision --continue-on-error 
+workloader ven-export --excl-containerized --headers wkld_href --output-file unpair_vens.csv
 
-./workloader deny-rule-export --output-file delete_deny.csv && \
-./workloader delete delete_deny.csv --header href --update-pce --no-prompt --provision --continue-on-error
+sed -i 's/workloads/vens/g' unpair_vens.csv
 
-./workloader labelgroup-export --output-file delete_lbg.csv && \
-./workloader delete delete_lbg.csv --header href --update-pce --no-prompt --provision --continue-on-error
+workloader unpair --href-file unpair_vens.csv --include-online --update-pce --no-prompt
 
-./workloader wkld-export --output-file delete_umwl.csv && \
-./workloader delete delete_umwl.csv --header href --update-pce --no-prompt --provision --continue-on-error 
+#--- dd pairing profile ------
+workloader pairing-profile-export --output-file delete_pp.csv
+workloader delete delete_pp.csv --header href --update-pce --no-prompt --provision
 
-./workloader svc-export --compressed --output-file delete_svc.csv && \
-./workloader delete delete_svc.csv --header href --update-pce --no-prompt --provision --continue-on-error
+#----dd ruleset -------
+workloader ruleset-export --output-file delete_ruleset.csv
+workloader delete delete_ruleset.csv --header href --update-pce --no-prompt --provision --continue-on-error 
 
-./workloader ipl-export --output-file delete_ipl.csv && \
-./workloader delete delete_ipl.csv --header href --update-pce --no-prompt --provision --continue-on-error 
 
-./workloader label-export --output-file delete_labels.csv && \
-./workloader delete delete_labels.csv --header href --update-pce --no-prompt --provision
+#--- dd deny rules -----
+workloader deny-rule-export --output-file delete_deny.csv && workloader delete delete_deny.csv --header href --update-pce --no-prompt --provision --continue-on-error
 
-./workloader label-dimension-export --output-file delete_label_dimension.csv && \
-./workloader delete delete_label_dimension.csv --header href --update-pce --no-prompt --provision
+#---dd lbg-----
+workloader labelgroup-export --output-file delete_lbg.csv && workloader delete delete_lbg.csv --header href --update-pce --no-prompt --provision --continue-on-error
 
-./workloader adgroup-export --output-file delete_ad.csv && \
-./workloader delete delete_ad.csv --header href --update-pce --no-prompt --provision --continue-on-error
+#--dd umwl-----
+workloader wkld-export --output-file delete_umwl.csv && workloader delete delete_umwl.csv --header href --update-pce --no-prompt --provision --continue-on-error 
+
+#--dd svc-----
+workloader svc-export --compressed --output-file delete_svc.csv && workloader delete delete_svc.csv --header href --update-pce --no-prompt --provision --continue-on-error
+
+#--dd ipl-----
+workloader ipl-export --output-file delete_ipl.csv && workloader delete delete_ipl.csv --header href --update-pce --no-prompt --provision --continue-on-error 
+
+#---dd label---
+workloader label-export --output-file delete_labels.csv && workloader delete delete_labels.csv --header href --update-pce --no-prompt --provision
+
+#--dd label dimension----
+workloader label-dimension-export --output-file delete_label_dimension.csv && workloader delete delete_label_dimension.csv --header href --update-pce --no-prompt --provision
+
+#--dd ad-----
+workloader adgroup-export --output-file delete_ad.csv && workloader delete delete_ad.csv --header href --update-pce --no-prompt --provision --continue-on-error
 
 echo -e "\n### Deletion Operations Completed ###"
 
 # Generate Pairing Keys
 echo -e "\n### Generating Pairing Keys ###"
-./workloader get-pk --profile Default-Servers --create --ven-type server -f server_pp
-./workloader get-pk --profile Default-Endpoints --create --ven-type endpoint -f endpoint_pp
+workloader get-pk --profile Default-Servers --create --ven-type server -f server_pp
+workloader get-pk --profile Default-Endpoints --create --ven-type endpoint -f endpoint_pp
 
 # Activate VENSim
 echo -e "\n### Activating VENSim ###"
 SERVER_PK=$(cat server_pp)
 ENDPOINT_PK=$(cat endpoint_pp)
 
-./vensim activate -c vens.csv -p processes.csv -m poc3.illum.io:443 -a "$SERVER_PK" -e "$ENDPOINT_PK"
+vensim activate -c vens.csv -p processes.csv -m poc3.illum.io:443 -a "$SERVER_PK" -e "$ENDPOINT_PK"
 
 # Create and Import Resources
 echo -e "\n### Creating and Importing Resources ###"
-./workloader label-dimension-import label-dimensions.csv --update-pce --no-prompt
-./workloader wkld-import wklds.csv --umwl --update-pce --no-prompt
-./workloader svc-import svcs.csv --update-pce --no-prompt && \
-./workloader svc-import svcs-meta.csv --meta --update-pce --no-prompt --provision
-./workloader ipl-import ipls.csv --update-pce --no-prompt --provision
-./vensim post-traffic -c vens.csv -t traffic.csv -d "2023-07-26"
+workloader label-dimension-import Instruqt-Vensim-Lab/labeldimensions.csv --update-pce --no-prompt
+workloader wkld-import Instruqt-Vensim-Lab/wklds.csv --umwl --update-pce --no-prompt
+workloader svc-import Instruqt-Vensim-Lab/svcs.csv --update-pce --no-prompt && workloader svc-import Instruqt-Vensim-Lab/svcs-meta.csv --meta --update-pce --no-prompt --provision
+workloader ipl-import Instruqt-Vensim-Lab/iplists.csv --update-pce --no-prompt --provision
+vensim post-traffic -c Instruqt-Vensim-Lab/vens.csv -t Instruqt-Vensim-Lab/traffic.csv -d "2023-07-26"
 
 echo -e "\n### Script Execution Completed Successfully ###"
