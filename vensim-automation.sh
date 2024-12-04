@@ -118,7 +118,7 @@ echo -e "\n### Activating VENSim ###"
 SERVER_PK=$(cat server_pp)
 ENDPOINT_PK=$(cat endpoint_pp)
 
-vensim activate -c vens.csv -p processes.csv -m poc3.illum.io:443 -a "$SERVER_PK" -e "$ENDPOINT_PK"
+vensim activate -c Instruqt-Vensim-Lab/vens.csv -p Instruqt-Vensim-Lab/processes.csv -m poc3.illum.io:443 -a "$SERVER_PK" -e "$ENDPOINT_PK"
 
 # Create and Import Resources
 echo -e "\n### Creating and Importing Resources ###"
