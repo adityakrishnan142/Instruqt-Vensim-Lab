@@ -142,12 +142,15 @@ CRON_CONFIG=$(cat <<'EOF'
 # Make sure vensim is in path
 PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/centos/.local/bin:/home/centos/bin
 
+# Make sure vensim is in path
+PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/centos/.local/bin:/home/centos/bin
+
 # Set variables
-TARGET_DIR=/root/Instruqt-Vensim-Lab
+TARGET_DIR=/root
 PCE=poc3.illum.io:443
-WORKLOAD_FILE=vens.csv
-TRAFFIC_FILE=traffic.csv
-PROCESS_FILE=processes.csv
+WORKLOAD_FILE=Instruqt-Vensim-Lab/vens.csv
+TRAFFIC_FILE=Instruqt-Vensim-Lab/traffic.csv
+PROCESS_FILE=Instruqt-Vensim-Lab/processes.csv
 
 # Update workload running processes once a day at 6 AM
 0 6 * * * cd $TARGET_DIR && vensim update-processes -c $WORKLOAD_FILE -p $PROCESS_FILE >/dev/null 2>&1
