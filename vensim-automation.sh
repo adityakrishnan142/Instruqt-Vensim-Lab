@@ -126,7 +126,7 @@ workloader label-dimension-import Instruqt-Vensim-Lab/labeldimensions.csv --upda
 workloader wkld-import Instruqt-Vensim-Lab/wklds.csv --umwl --allow-enforcement-changes --update-pce --no-prompt
 workloader svc-import Instruqt-Vensim-Lab/svcs.csv --update-pce --no-prompt && workloader svc-import Instruqt-Vensim-Lab/svcs-meta.csv --meta --update-pce --no-prompt --provision
 workloader ipl-import Instruqt-Vensim-Lab/iplists.csv --update-pce --no-prompt --provision
-vensim post-traffic -c Instruqt-Vensim-Lab/vens.csv -t Instruqt-Vensim-Lab/traffic.csv -d "2023-07-26"
+vensim post-traffic -c Instruqt-Vensim-Lab/vens.csv -t Instruqt-Vensim-Lab/traffic.csv -d "today"
 
 echo -e "\n### Script Execution Completed Successfully ###"
 
