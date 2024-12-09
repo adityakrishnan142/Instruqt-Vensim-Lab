@@ -1715,3 +1715,7 @@ src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst
 172.16.3.101,Win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.2,inf-jh01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
 172.16.3.102,Win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.7,inf-jh02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
 10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.66,pos-db01-stg,,22,6,sshd,,root,potentially_blocked
+10.0.2.31,hr-web01-prd,,,,10.0.0.8,ord-db02-dev,,3306,6,mysqld,,,potentially_blocked
+10.0.2.42,crm-proc01-prd,,,,172.16.3.46,crmprodcaweb1,,443,6,,,,potentially_blocked
+192.168.1.6,ticketing-web01-dev,,,,10.0.1.204,pay-web01-prd,,443,6,httpd,,,potentially_blocked
+192.168.1.6,ticketing-web01-dev,,,,10.0.0.76,pos-db03-pci,,5432,6,,,,potentially_blocked
