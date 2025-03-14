@@ -120,6 +120,8 @@ ENDPOINT_PK=$(cat endpoint_pp)
 
 vensim activate -c Instruqt-Vensim-Lab/vens.csv -p Instruqt-Vensim-Lab/processes.csv -m poc3.illum.io:443 -a "$SERVER_PK" -e "$ENDPOINT_PK"
 
+vensim post-traffic -c Instruqt-Vensim-Lab/vens.csv -t Instruqt-Vensim-Lab/traffic.csv -d "today"
+
 # Create and Import Resources
 echo -e "\n### Creating and Importing Resources ###"
 workloader label-dimension-import Instruqt-Vensim-Lab/labeldimensions.csv --update-pce --no-prompt
